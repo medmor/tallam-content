@@ -1,0 +1,9 @@
+<svg viewBox="0 0 300 80" class="w-full max-w-xs mx-auto my-2" xmlns="http://www.w3.org/2000/svg">
+  <line x1="40" y1="40" x2="280" y2="40" stroke="#FF653F" stroke-width="3"/>
+  <polygon points="276,34 290,40 276,46" fill="#FF653F"/>
+  <circle cx="40" cy="40" r="6" fill="#1E104E"/>
+  <circle cx="150" cy="40" r="3" fill="#999"/>
+  <text x="40" y="68" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E104E">A</text>
+  <text x="150" y="68" text-anchor="middle" font-size="13" fill="#999">B</text>
+  <text x="210" y="30" text-anchor="middle" font-size="12" fill="#FF653F">&#x2192; &#x221E;</text>
+</svg>
