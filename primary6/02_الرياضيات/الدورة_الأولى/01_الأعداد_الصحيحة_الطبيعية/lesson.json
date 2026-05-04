@@ -24,14 +24,22 @@
         "type": "fill-blank",
         "text": "المليون هو العدد الذي يلي مباشرة العدد {{blank1}}، بحيث: $$1 000 000 = {{blank2}} + 999 999$$. ومليون واحد يساوي {{blank3}} ألف.",
         "blanks": [
-          { "id": "blank1", "answer": "999 999" },
-          { "id": "blank2", "answer": "1" },
-          { "id": "blank3", "answer": "ألف" }
+          {
+            "id": "blank1",
+            "answer": "999 999"
+          },
+          {
+            "id": "blank2",
+            "answer": "1"
+          },
+          {
+            "id": "blank3",
+            "answer": "ألف"
+          }
         ],
         "explanation": "المليون يكتب $$1 000 000$$ وهو يلي العدد $$999 999$$، ومليون = ألف × ألف = ألف ألف."
       }
     },
-
     {
       "type": "content",
       "title": "المليار",
@@ -61,7 +69,6 @@
         "explanation": "$$1 مليار = 1 000 000 000 = ألف × مليون = ألف مليون$$"
       }
     },
-
     {
       "type": "content",
       "title": "جدول العد",
@@ -81,33 +88,104 @@
         "type": "click-to-place",
         "instruction": "ضع الأرقام في الأماكن الصحيحة في جدول العد للعدد `735 906 953 146`",
         "items": [
-          { "id": "item-0", "label": "0" },
-          { "id": "item-1", "label": "1" },
-          { "id": "item-3", "label": "3" },
-          { "id": "item-4", "label": "4" },
-          { "id": "item-5", "label": "5" },
-          { "id": "item-6", "label": "6" },
-          { "id": "item-7", "label": "7" },
-          { "id": "item-9", "label": "9" }
+          {
+            "id": "item-0",
+            "label": "0"
+          },
+          {
+            "id": "item-1",
+            "label": "1"
+          },
+          {
+            "id": "item-3",
+            "label": "3"
+          },
+          {
+            "id": "item-4",
+            "label": "4"
+          },
+          {
+            "id": "item-5",
+            "label": "5"
+          },
+          {
+            "id": "item-6",
+            "label": "6"
+          },
+          {
+            "id": "item-7",
+            "label": "7"
+          },
+          {
+            "id": "item-9",
+            "label": "9"
+          }
         ],
         "slots": [
-          { "id": "slot-h-b", "label": "مئات الملايير", "correctItemId": "7" },
-          { "id": "slot-h-t", "label": "عشرات الملايير", "correctItemId": "3" },
-          { "id": "slot-h-u", "label": "وحدات الملايير", "correctItemId": "5" },
-          { "id": "slot-m-h", "label": "مئات الملايين", "correctItemId": "9" },
-          { "id": "slot-m-t", "label": "عشرات الملايين", "correctItemId": "0" },
-          { "id": "slot-m-u", "label": "وحدات الملايين", "correctItemId": "6" },
-          { "id": "slot-t-h", "label": "مئات الآلاف", "correctItemId": "9" },
-          { "id": "slot-t-t", "label": "عشرات الآلاف", "correctItemId": "5" },
-          { "id": "slot-t-u", "label": "وحدات الآلاف", "correctItemId": "3" },
-          { "id": "slot-u-h", "label": "مئات الوحدات", "correctItemId": "1" },
-          { "id": "slot-u-t", "label": "عشرات الوحدات", "correctItemId": "4" },
-          { "id": "slot-u-u", "label": "وحدات الوحدات", "correctItemId": "6" }
+          {
+            "id": "slot-h-b",
+            "label": "مئات الملايير",
+            "correctItemId": "item-7"
+          },
+          {
+            "id": "slot-h-t",
+            "label": "عشرات الملايير",
+            "correctItemId": "item-3"
+          },
+          {
+            "id": "slot-h-u",
+            "label": "وحدات الملايير",
+            "correctItemId": "item-5"
+          },
+          {
+            "id": "slot-m-h",
+            "label": "مئات الملايين",
+            "correctItemId": "item-9"
+          },
+          {
+            "id": "slot-m-t",
+            "label": "عشرات الملايين",
+            "correctItemId": "item-0"
+          },
+          {
+            "id": "slot-m-u",
+            "label": "وحدات الملايين",
+            "correctItemId": "item-6"
+          },
+          {
+            "id": "slot-t-h",
+            "label": "مئات الآلاف",
+            "correctItemId": "item-9"
+          },
+          {
+            "id": "slot-t-t",
+            "label": "عشرات الآلاف",
+            "correctItemId": "item-5"
+          },
+          {
+            "id": "slot-t-u",
+            "label": "وحدات الآلاف",
+            "correctItemId": "item-3"
+          },
+          {
+            "id": "slot-u-h",
+            "label": "مئات الوحدات",
+            "correctItemId": "item-1"
+          },
+          {
+            "id": "slot-u-t",
+            "label": "عشرات الوحدات",
+            "correctItemId": "item-4"
+          },
+          {
+            "id": "slot-u-u",
+            "label": "وحدات الوحدات",
+            "correctItemId": "item-6"
+          }
         ],
         "explanation": "يُقسّم العدد $$735 906 953 146$$ إلى فئات: الملايير ($$735$$)، الملايين ($$906$$)، الآلاف ($$953$$)، الوحدات البسيطة ($$146$$)."
       }
     },
-
     {
       "type": "content",
       "title": "قراءة الأعداد الكبيرة",
@@ -123,16 +201,32 @@
         "type": "order-items",
         "instruction": "رتّب الخطوات التالية لقراءة عدد كبير بالترتيب الصحيح:",
         "items": [
-          { "id": "step-1", "label": "نقسم أرقام العدد ثلاثة ثلاثة بدءا من اليمين" },
-          { "id": "step-2", "label": "نحدد فئة كل مجموعة (وحدات بسيطة، آلاف، ملايين، ملايير)" },
-          { "id": "step-3", "label": "نقرأ كل مجموعة على حدة مع ذكر اسم الفئة" },
-          { "id": "step-4", "label": "نربط بين المجموعات بحرف العطف 'و'" }
+          {
+            "id": "step-1",
+            "label": "نقسم أرقام العدد ثلاثة ثلاثة بدءا من اليمين"
+          },
+          {
+            "id": "step-2",
+            "label": "نحدد فئة كل مجموعة (وحدات بسيطة، آلاف، ملايين، ملايير)"
+          },
+          {
+            "id": "step-3",
+            "label": "نقرأ كل مجموعة على حدة مع ذكر اسم الفئة"
+          },
+          {
+            "id": "step-4",
+            "label": "نربط بين المجموعات بحرف العطف 'و'"
+          }
         ],
-        "correctOrder": ["step-1", "step-2", "step-3", "step-4"],
+        "correctOrder": [
+          "step-1",
+          "step-2",
+          "step-3",
+          "step-4"
+        ],
         "explanation": "لقراءة عدد كبير، نقسمه أولا ثلاثة ثلاثة من اليمين، ثم نحدد فئة كل مجموعة، ثم نقرأ كل مجموعة مع اسم فئتها، وأخيرا نربطها بحرف العطف 'و'."
       }
     },
-
     {
       "type": "content",
       "title": "مقارنة الأعداد الطبيعية",
@@ -175,9 +269,18 @@
           "type": "fill-blank",
           "text": "المليار هو العدد الذي يلي مباشرة العدد {{blank1}}، بحيث: $$1 000 000 000 = {{blank2}} + {{blank3}}$$",
           "blanks": [
-            { "id": "blank1", "answer": "999 999 999" },
-            { "id": "blank2", "answer": "1" },
-            { "id": "blank3", "answer": "999 999 999" }
+            {
+              "id": "blank1",
+              "answer": "999 999 999"
+            },
+            {
+              "id": "blank2",
+              "answer": "1"
+            },
+            {
+              "id": "blank3",
+              "answer": "999 999 999"
+            }
           ],
           "explanation": "المليار = $$1 000 000 000$$ = $$1 + 999 999 999$$"
         }
@@ -246,8 +349,14 @@
           "type": "fill-blank",
           "text": "لمقارنة عددين لهما نفس عدد الأرقام، نقارن أرقامهما بدءا من {{blank1}}. العدد الأكبر هو ما له {{blank2}} في أعلى مرتبة مختلفة.",
           "blanks": [
-            { "id": "blank1", "answer": "اليسار" },
-            { "id": "blank2", "answer": "رقم أكبر" }
+            {
+              "id": "blank1",
+              "answer": "اليسار"
+            },
+            {
+              "id": "blank2",
+              "answer": "رقم أكبر"
+            }
           ],
           "explanation": "عندما يكون للعددين نفس عدد الأرقام، نبدأ المقارنة من اليسار (أعلى مرتبة) والعدد الأكبر هو ما له رقم أكبر في أول مرتبة تختلف."
         }
