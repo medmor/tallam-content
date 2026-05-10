@@ -1,0 +1,8 @@
+<svg viewBox="0 0 300 180" class="w-full max-w-[280px] mx-auto my-2" xmlns="http://www.w3.org/2000/svg">
+  <line x1="30" y1="140" x2="270" y2="140" stroke="#1E104E" stroke-width="2.5"/>
+  <line x1="150" y1="20" x2="150" y2="140" stroke="#FF653F" stroke-width="2.5"/>
+  <rect x="150" y="125" width="15" height="15" fill="none" stroke="#6D28D9" stroke-width="2"/>
+  <text x="275" y="150" font-size="14" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">(d1)</text>
+  <text x="165" y="18" font-size="14" fill="#FF653F" font-weight="bold" text-anchor="middle" dominant-baseline="central">(d2)</text>
+  <text x="175" y="120" font-size="16" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">⊥</text>
+</svg>

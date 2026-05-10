@@ -1,0 +1,10 @@
+<svg viewBox="0 0 300 160" class="w-full max-w-[280px] mx-auto my-2" xmlns="http://www.w3.org/2000/svg">
+  <line x1="20" y1="30" x2="280" y2="30" stroke="#1E104E" stroke-width="2.5"/>
+  <line x1="20" y1="80" x2="280" y2="80" stroke="#FF653F" stroke-width="2.5"/>
+  <line x1="20" y1="130" x2="280" y2="130" stroke="#6D28D9" stroke-width="2.5"/>
+  <text x="285" y="40" font-size="13" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">(d1)</text>
+  <text x="285" y="90" font-size="13" fill="#FF653F" font-weight="bold" text-anchor="middle" dominant-baseline="central">(d2)</text>
+  <text x="285" y="140" font-size="13" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">(d3)</text>
+  <text x="70" y="60" font-size="13" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">//</text>
+  <text x="70" y="108" font-size="13" fill="#FF653F" font-weight="bold" text-anchor="middle" dominant-baseline="central">//</text>
+</svg>
