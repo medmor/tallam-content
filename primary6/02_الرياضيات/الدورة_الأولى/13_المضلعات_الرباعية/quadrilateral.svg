@@ -1,0 +1,19 @@
+<svg viewBox="0 0 280 200" class="w-full max-w-[260px] mx-auto my-2" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="40,160 40,50 220,30 240,140" fill="#1E104E" fill-opacity="0.08" stroke="#1E104E" stroke-width="2.5"/>
+
+  <circle cx="40" cy="160" r="4" fill="#1E104E"/>
+  <circle cx="40" cy="50" r="4" fill="#1E104E"/>
+  <circle cx="220" cy="30" r="4" fill="#1E104E"/>
+  <circle cx="240" cy="140" r="4" fill="#1E104E"/>
+
+  <text x="30" y="175" font-size="14" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">A</text>
+  <text x="30" y="40" font-size="14" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">B</text>
+  <text x="228" y="22" font-size="14" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">C</text>
+  <text x="252" y="145" font-size="14" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">D</text>
+
+  <line x1="40" y1="105" x2="220" y2="85" stroke="#FF653F" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <line x1="130" y1="40" x2="140" y2="150" stroke="#6D28D9" stroke-width="1.5" stroke-dasharray="6,3"/>
+
+  <text x="125" y="30" font-size="12" fill="#FF653F" font-weight="bold" text-anchor="middle" dominant-baseline="central">[AB]</text>
+  <text x="245" y="85" font-size="12" fill="#FF653F" font-weight="bold" text-anchor="middle" dominant-baseline="central">[CD]</text>
+</svg>
