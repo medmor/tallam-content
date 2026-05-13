@@ -1,55 +1,62 @@
 <svg viewBox="0 0 320 260" class="w-full max-w-[280px] mx-auto my-2" xmlns="http://www.w3.org/2000/svg">
   <rect x="0" y="0" width="320" height="260" fill="#2D8B4E" rx="8"/>
 
-  <!-- Quotient: 289 -->
-  <text x="168" y="40" font-size="26" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">289</text>
+  <!-- Divisor: 20 on the left, inside the division bracket -->
+  <text x="42" y="42" font-size="24" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">20</text>
 
-  <!-- Divisor: 20 -->
-  <text x="38" y="40" font-size="26" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">20</text>
+  <!-- Dividend: 5789 across the top -->
+  <text x="105" y="42" font-size="24" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">5</text>
+  <text x="145" y="42" font-size="24" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">7</text>
+  <text x="185" y="42" font-size="24" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">8</text>
+  <text x="225" y="42" font-size="24" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">9</text>
 
-  <!-- Horizontal line after divisor -->
-  <line x1="68" y1="55" x2="260" y2="55" stroke="white" stroke-width="2.5"/>
+  <!-- Quotient: 289 above the dividend -->
+  <text x="105" y="10" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">2</text>
+  <text x="145" y="10" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">8</text>
+  <text x="185" y="10" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">9</text>
 
-  <!-- Dividend: 5789 (below the line, left side) -->
-  <text x="98" y="40" font-size="26" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">5</text>
-  <text x="128" y="40" font-size="26" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">7</text>
-  <text x="168" y="40" font-size="26" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">8</text>
-  <text x="198" y="40" font-size="26" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">9</text>
+  <!-- Top horizontal line (under quotient and above dividend) -->
+  <line x1="75" y1="20" x2="250" y2="20" stroke="white" stroke-width="2"/>
 
-  <!-- Step 1: 57 - 40 = 17 -->
-  <text x="98" y="40" font-size="26" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">5</text>
-  <text x="128" y="40" font-size="26" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">7</text>
-  
-  <!-- 40 below 57 -->
-  <text x="98" y="78" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">4</text>
-  <text x="128" y="78" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">0</text>
-  
-  <line x1="68" y1="90" x2="208" y2="90" stroke="white" stroke-width="1.5"/>
+  <!-- Vertical line left of dividend (division bracket left side) -->
+  <line x1="75" y1="20" x2="75" y2="55" stroke="white" stroke-width="2"/>
 
-  <!-- 17, bring down 8 → 178 -->
-  <text x="98" y="118" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">1</text>
-  <text x="128" y="118" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">7</text>
-  <text x="168" y="118" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">8</text>
+  <!-- Bottom of dividend horizontal line -->
+  <line x1="75" y1="55" x2="250" y2="55" stroke="white" stroke-width="2"/>
+
+  <!-- Step 1: 40 below 57 -->
+  <text x="105" y="75" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">4</text>
+  <text x="145" y="75" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">0</text>
+
+  <!-- Line under 40 -->
+  <line x1="85" y1="85" x2="165" y2="85" stroke="white" stroke-width="1.5"/>
+
+  <!-- Step 2: 178 -->
+  <text x="105" y="105" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">1</text>
+  <text x="145" y="105" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">7</text>
+  <text x="185" y="105" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">8</text>
 
   <!-- 160 below 178 -->
-  <text x="98" y="152" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">1</text>
-  <text x="128" y="152" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">6</text>
-  <text x="168" y="152" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">0</text>
+  <text x="105" y="135" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">1</text>
+  <text x="145" y="135" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">6</text>
+  <text x="185" y="135" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">0</text>
 
-  <line x1="68" y1="164" x2="228" y2="164" stroke="white" stroke-width="1.5"/>
+  <!-- Line under 160 -->
+  <line x1="85" y1="145" x2="205" y2="145" stroke="white" stroke-width="1.5"/>
 
-  <!-- 18, bring down 9 → 189 -->
-  <text x="128" y="192" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">1</text>
-  <text x="168" y="192" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">8</text>
-  <text x="198" y="192" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">9</text>
+  <!-- Step 3: 189 -->
+  <text x="145" y="165" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">1</text>
+  <text x="185" y="165" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">8</text>
+  <text x="225" y="165" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">9</text>
 
   <!-- 180 below 189 -->
-  <text x="128" y="222" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">1</text>
-  <text x="168" y="222" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">8</text>
-  <text x="198" y="222" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">0</text>
+  <text x="145" y="195" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">1</text>
+  <text x="185" y="195" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">8</text>
+  <text x="225" y="195" font-size="22" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">0</text>
 
-  <line x1="68" y1="234" x2="228" y2="234" stroke="white" stroke-width="1.5"/>
+  <!-- Line under 180 -->
+  <line x1="135" y1="205" x2="245" y2="205" stroke="white" stroke-width="1.5"/>
 
   <!-- Remainder: 9 -->
-  <text x="168" y="252" font-size="26" fill="#FFD700" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">9</text>
+  <text x="225" y="235" font-size="24" fill="#FFD700" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">9</text>
 </svg>
