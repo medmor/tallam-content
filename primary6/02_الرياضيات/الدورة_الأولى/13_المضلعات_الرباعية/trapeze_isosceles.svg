@@ -6,10 +6,8 @@
   <text x="238" y="32" font-size="13" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">C</text>
   <text x="208" y="165" font-size="13" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">D</text>
 
-  <line x1="65" y1="95" x2="215" y2="95" stroke="#6D28D9" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <line x1="140" y1="40" x2="140" y2="150" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
 
   <text x="135" y="88" font-size="11" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">AB = CD</text>
-  <text x="105" y="28" font-size="11" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">قاعدة صغرى</text>
-  <text x="150" y="168" font-size="11" fill="#FF653F" font-weight="bold" text-anchor="middle" dominant-baseline="central">قاعدة كبرى</text>
+  <text x="140" y="168" font-size="11" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">قاعدة صغرى</text>
+  <text x="140" y="28" font-size="11" fill="#FF653F" font-weight="bold" text-anchor="middle" dominant-baseline="central">قاعدة كبرى</text>
 </svg>
