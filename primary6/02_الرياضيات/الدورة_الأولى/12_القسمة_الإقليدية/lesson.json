@@ -1,0 +1,323 @@
+{
+  "id": "primary6/02-الرياضيات/الدورة-الأولى/12-القسمة-الإقليدية",
+  "title": "القسمة الإقليدية",
+  "subject": "الرياضيات",
+  "semester": "الدورة الأولى",
+  "steps": [
+    {
+      "type": "content",
+      "id": 1,
+      "title": "القسمة الإقليدية",
+      "body": "**القسمة الإقليدية** لعدد صحيح طبيعي (D) على عدد صحيح طبيعي غير منعدم (d) هي إيجاد عددين: **الخارج** (q) و**الباقي** (r) بحيث:\n\n$$D = (d × q) + r$$\n\nحيث يكون الباقي أصغر من المقسوم عليه: **r < d**\n\n- **D**: المقسوم\n- **d**: المقسوم عليه\n- **q**: الخارج\n- **r**: الباقي"
+    },
+    {
+      "type": "activity",
+      "id": 2,
+      "activity": {
+        "type": "click-to-place",
+        "instruction": "ضع المصطلح المناسب في مكانه",
+        "items": [
+          {
+            "id": "item-0",
+            "label": "المقسوم"
+          },
+          {
+            "id": "item-1",
+            "label": "المقسوم عليه"
+          },
+          {
+            "id": "item-2",
+            "label": "الخارج"
+          },
+          {
+            "id": "item-3",
+            "label": "الباقي"
+          }
+        ],
+        "slots": [
+          {
+            "id": "slot-1",
+            "label": "D في المعادلة D = (d × q) + r",
+            "correctItemId": "item-0"
+          },
+          {
+            "id": "slot-2",
+            "label": "d في المعادلة D = (d × q) + r",
+            "correctItemId": "item-1"
+          },
+          {
+            "id": "slot-3",
+            "label": "q في المعادلة D = (d × q) + r",
+            "correctItemId": "item-2"
+          },
+          {
+            "id": "slot-4",
+            "label": "r في المعادلة D = (d × q) + r",
+            "correctItemId": "item-3"
+          }
+        ],
+        "explanation": "D = المقسوم، d = المقسوم عليه، q = الخارج، r = الباقي."
+      }
+    },
+    {
+      "type": "content",
+      "id": 3,
+      "title": "مثال: القسمة الإقليدية",
+      "body": "**مثال:** قسمة 60 على 8\n\n$$60 = (8 × 7) + 4$$\n\n- المقسوم: **60**\n- المقسوم عليه: **8**\n- الخارج: **7**\n- الباقي: **4**\n- التحقق: 4 < 8 ✓"
+    },
+    {
+      "type": "activity",
+      "id": 4,
+      "activity": {
+        "type": "multiple-choice",
+        "question": "في القسمة الإقليدية لـ 60 على 8، ما هو الباقي؟",
+        "options": [
+          "7",
+          "4",
+          "8",
+          "60"
+        ],
+        "correctIndex": 1,
+        "explanation": "60 = (8 × 7) + 4. الباقي هو 4."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 5,
+      "activity": {
+        "type": "true-false",
+        "statements": [
+          {
+            "text": "في القسمة الإقليدية، الباقي دائماً أصغر من المقسوم عليه",
+            "correct": true,
+            "explanation": "نعم، شرط القسمة الإقليدية هو r < d."
+          },
+          {
+            "text": "يمكن أن يكون الباقي مساوياً للمقسوم عليه",
+            "correct": false,
+            "explanation": "الباقي يجب أن يكون أصغر من المقسوم عليه بصرامة (r < d)."
+          }
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "id": 6,
+      "title": "إنجاز القسمة الإقليدية بالوضع",
+      "body": "لطسمة العدد **156** على **9**:\n\n{{svg:division.svg}}\n\n**النتيجة:** 156 = (9 × 17) + 3\n\n- المقسوم: 156\n- المقسوم عليه: 9\n- الخارج: 17\n- الباقي: 3\n- التحقق: 3 < 9 ✓"
+    },
+    {
+      "type": "activity",
+      "id": 7,
+      "activity": {
+        "type": "fill-blank",
+        "text": "في القسمة الإقليدية لـ 156 على 9: الباقي = {{blank1}} والخارج = {{blank2}}",
+        "blanks": [
+          {
+            "id": "blank1",
+            "answer": "3"
+          },
+          {
+            "id": "blank2",
+            "answer": "17"
+          }
+        ],
+        "explanation": "156 = (9 × 17) + 3. الباقي = 3 والخارج = 17."
+      }
+    },
+    {
+      "type": "content",
+      "id": 8,
+      "title": "تحديد عدد أرقام الخارج",
+      "body": "لتحديد عدد أرقام الخارج، نستعمل **الحصر**:\n\nمثال: قسمة 156 على 9\n\n$$9 × 10 = 90 < 156 < 900 = 9 × 100$$\n\nإذن الخارج محصور بين 10 و 100 ← الخارج مكون من **رقمين**."
+    },
+    {
+      "type": "activity",
+      "id": 9,
+      "activity": {
+        "type": "multiple-choice",
+        "question": "في القسمة الإقليدية لـ 47 على 5، ما هو الباقي؟",
+        "options": [
+          "9",
+          "2",
+          "4",
+          "7"
+        ],
+        "correctIndex": 1,
+        "explanation": "47 = (5 × 9) + 2. الباقي هو 2."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 10,
+      "activity": {
+        "type": "fill-blank",
+        "text": "أكمل: 47 = (5 × {{blank1}}) + {{blank2}}",
+        "blanks": [
+          {
+            "id": "blank1",
+            "answer": "9"
+          },
+          {
+            "id": "blank2",
+            "answer": "2"
+          }
+        ],
+        "explanation": "47 ÷ 5 = 9 والباقي 2. 47 = (5 × 9) + 2."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 11,
+      "activity": {
+        "type": "order-items",
+        "instruction": "رتّب خطوات القسمة الإقليدية",
+        "items": [
+          {
+            "id": "step-0",
+            "label": "تحديد عدد أرقام الخارج بالحصر"
+          },
+          {
+            "id": "step-1",
+            "label": "إنجاز القسمة بالوضع"
+          },
+          {
+            "id": "step-2",
+            "label": "التأكد باستعمال المعادلة D = (d × q) + r"
+          }
+        ],
+        "correctOrder": [
+          "step-0",
+          "step-1",
+          "step-2"
+        ],
+        "explanation": "نبدأ بتحديد عدد أرقام الخارج، ثم ننجز القسمة، وأخيراً نتحقق بالمعادلة."
+      }
+    }
+  ],
+  "exam": {
+    "title": "امتحان القسمة الإقليدية",
+    "passingScore": 50,
+    "questions": [
+      {
+        "id": 1,
+        "activity": {
+          "type": "fill-blank",
+          "text": "في القسمة الإقليدية، شرط الباقي هو r {{blank1}} d",
+          "blanks": [
+            {
+              "id": "blank1",
+              "answer": "<"
+            }
+          ],
+          "explanation": "الباقي يجب أن يكون أصغر من المقسوم عليه: r < d."
+        }
+      },
+      {
+        "id": 2,
+        "activity": {
+          "type": "multiple-choice",
+          "question": "في القسمة 75 = (8 × 9) + 3، ما هو الخارج؟",
+          "options": [
+            "75",
+            "8",
+            "9",
+            "3"
+          ],
+          "correctIndex": 2,
+          "explanation": "الخارج هو q = 9 في المعادلة D = (d × q) + r."
+        }
+      },
+      {
+        "id": 3,
+        "activity": {
+          "type": "true-false",
+          "statements": [
+            {
+              "text": "إذا كان الباقي يساوي المقسوم عليه، فالقسمة صحيحة",
+              "correct": false,
+              "explanation": "الباقي يجب أن يكون أصغر من المقسوم عليه بصرامة."
+            },
+            {
+              "text": "إذا كان الباقي يساوي 0، فالقسمة تامة",
+              "correct": true,
+              "explanation": "عندما الباقي = 0، يكون القسمة تامة (بدون باقي)."
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "activity": {
+          "type": "fill-blank",
+          "text": "أكمل: 100 = (7 × {{blank1}}) + {{blank2}}",
+          "blanks": [
+            {
+              "id": "blank1",
+              "answer": "14"
+            },
+            {
+              "id": "blank2",
+              "answer": "2"
+            }
+          ],
+          "explanation": "100 ÷ 7 = 14 والباقي 2. 100 = (7 × 14) + 2."
+        }
+      },
+      {
+        "id": 5,
+        "activity": {
+          "type": "multiple-choice",
+          "question": "القسمة الإقليدية لـ 23 على 4 تعطي:",
+          "options": [
+            "الخارج 5 والباقي 3",
+            "الخارج 6 والباقي 1",
+            "الخارج 5 والباقي 4",
+            "الخارج 4 والباقي 7"
+          ],
+          "correctIndex": 0,
+          "explanation": "23 = (4 × 5) + 3. الخارج = 5 والباقي = 3."
+        }
+      },
+      {
+        "id": 6,
+        "activity": {
+          "type": "click-to-place",
+          "instruction": "ضع المصطلح الصحيح",
+          "items": [
+            {
+              "id": "item-0",
+              "label": "المقسوم"
+            },
+            {
+              "id": "item-1",
+              "label": "الباقي"
+            },
+            {
+              "id": "item-2",
+              "label": "الخارج"
+            }
+          ],
+          "slots": [
+            {
+              "id": "slot-1",
+              "label": "60 في القسمة 60 ÷ 8",
+              "correctItemId": "item-0"
+            },
+            {
+              "id": "slot-2",
+              "label": "4 في القسمة 60 ÷ 8",
+              "correctItemId": "item-1"
+            },
+            {
+              "id": "slot-3",
+              "label": "7 في القسمة 60 ÷ 8",
+              "correctItemId": "item-2"
+            }
+          ],
+          "explanation": "60 = المقسوم، 8 = المقسوم عليه، 7 = الخارج، 4 = الباقي."
+        }
+      }
+    ]
+  }
+}

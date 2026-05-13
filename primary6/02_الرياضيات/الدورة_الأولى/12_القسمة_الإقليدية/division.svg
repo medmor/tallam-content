@@ -1,0 +1,54 @@
+<svg viewBox="0 0 340 170" class="w-full max-w-[300px] mx-auto my-2" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="8" width="324" height="148" fill="#F8F6FF" rx="6"/>
+  <rect x="8" y="8" width="324" height="28" fill="#EDE9FE" rx="6 6 0 0"/>
+  <rect x="8" y="136" width="324" height="20" fill="#FFF1EE" rx="0 0 6 6"/>
+
+  <line x1="8" y1="36" x2="332" y2="36" stroke="#D4D0E8" stroke-width="1"/>
+  <line x1="8" y1="66" x2="332" y2="66" stroke="#D4D0E8" stroke-width="1"/>
+  <line x1="8" y1="96" x2="332" y2="96" stroke="#D4D0E8" stroke-width="1"/>
+  <line x1="8" y1="136" x2="332" y2="136" stroke="#1E104E" stroke-width="2"/>
+
+  <line x1="48" y1="8" x2="48" y2="156" stroke="#D4D0E8" stroke-width="1"/>
+  <line x1="100" y1="8" x2="100" y2="156" stroke="#D4D0E8" stroke-width="1"/>
+  <line x1="152" y1="8" x2="152" y2="156" stroke="#D4D0E8" stroke-width="1"/>
+  <line x1="204" y1="8" x2="204" y2="156" stroke="#D4D0E8" stroke-width="1"/>
+
+  <!-- Column headers -->
+  <text x="74" y="22" font-size="10" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">مئة</text>
+  <text x="126" y="22" font-size="10" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">عشرة</text>
+  <text x="178" y="22" font-size="10" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">واحد</text>
+
+  <!-- Row labels -->
+  <text x="26" y="53" font-size="10" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">المقسوم</text>
+  <text x="26" y="83" font-size="9" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">استلاف</text>
+  <text x="26" y="113" font-size="9" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">-9×خارج</text>
+  <text x="26" y="148" font-size="9" fill="#FF653F" font-weight="bold" text-anchor="middle" dominant-baseline="central">الباقي</text>
+
+  <!-- Extra column header -->
+  <text x="230" y="22" font-size="10" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">الخارج</text>
+
+  <!-- Divider for divisor -->
+  <rect x="205" y="36" width="1" height="100" fill="#1E104E"/>
+  <text x="270" y="22" font-size="10" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">9</text>
+
+  <!-- Row: 156 -->
+  <text x="74" y="53" font-size="16" fill="#1E104E" text-anchor="middle" dominant-baseline="central">1</text>
+  <text x="126" y="53" font-size="16" fill="#1E104E" text-anchor="middle" dominant-baseline="central">5</text>
+  <text x="178" y="53" font-size="16" fill="#1E104E" text-anchor="middle" dominant-baseline="central">6</text>
+
+  <!-- Carry row -->
+  <text x="126" y="83" font-size="14" fill="#6D28D9" text-anchor="middle" dominant-baseline="central">1</text>
+
+  <!-- -9×1 = -09 -->
+  <text x="74" y="113" font-size="14" fill="#1E104E" text-anchor="middle" dominant-baseline="central">0</text>
+  <text x="126" y="113" font-size="14" fill="#1E104E" text-anchor="middle" dominant-baseline="central">9</text>
+
+  <!-- Quotient digits -->
+  <text x="230" y="53" font-size="16" fill="#FF653F" font-weight="bold" text-anchor="middle" dominant-baseline="central">1</text>
+  <text x="280" y="53" font-size="16" fill="#FF653F" font-weight="bold" text-anchor="middle" dominant-baseline="central">7</text>
+
+  <!-- Remainder: 3 -->
+  <text x="178" y="148" font-size="16" fill="#FF653F" font-weight="bold" text-anchor="middle" dominant-baseline="central">3</text>
+
+  <rect x="8" y="8" width="324" height="148" fill="none" stroke="#1E104E" stroke-width="1.5" rx="6"/>
+</svg>
