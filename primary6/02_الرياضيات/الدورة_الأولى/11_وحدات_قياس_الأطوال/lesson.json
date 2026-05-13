@@ -1,0 +1,310 @@
+{
+  "id": "primary6/02-الرياضيات/الدورة-الأولى/11-وحدات-قياس-الأطوال",
+  "title": "وحدات قياس الأطوال",
+  "subject": "الرياضيات",
+  "semester": "الدورة الأولى",
+  "steps": [
+    {
+      "type": "content",
+      "id": 1,
+      "title": "وحدة قياس الأطوال",
+      "body": "**الوحدة الأساسية** لقياس الأطوال هي **المتر** ويرمز لها بـ **m**.\n\nإلى جانب المتر، هناك وحدات أخرى هي **مضاعفات المتر** و**أجزاء المتر**.\n\n{{svg:length_units.svg}}"
+    },
+    {
+      "type": "content",
+      "id": 2,
+      "title": "أجزاء المتر",
+      "body": "**أجزاء المتر** هي وحدات أصغر من المتر:\n\n- **الديسمتر (dm):** 1 dm = 0,1 m = 1/10 m\n- **السنتمتر (cm):** 1 cm = 0,01 m = 1/100 m\n- **الميليمتر (mm):** 1 mm = 0,001 m = 1/1000 m\n\nكل وحدة تساوي **10 أضعاف** الوحدة الأصغر منها."
+    },
+    {
+      "type": "activity",
+      "id": 3,
+      "activity": {
+        "type": "fill-blank",
+        "text": "1 متر = {{blank1}} ديسمتر",
+        "blanks": [
+          {
+            "id": "blank1",
+            "answer": "10"
+          }
+        ],
+        "explanation": "الديسمتر = 1/10 من المتر، إذن 1 متر = 10 ديسمتر."
+      }
+    },
+    {
+      "type": "content",
+      "id": 4,
+      "title": "مضاعفات المتر",
+      "body": "**مضاعفات المتر** هي وحدات أكبر من المتر:\n\n- **الديكامتر (dam):** 1 dam = 10 m\n- **الهكتومتر (hm):** 1 hm = 100 m\n- **الكيلومتر (km):** 1 km = 1000 m\n\nكل وحدة تساوي **10 أضعاف** الوحدة الأصغر منها."
+    },
+    {
+      "type": "activity",
+      "id": 5,
+      "activity": {
+        "type": "fill-blank",
+        "text": "1 كيلومتر = {{blank1}} متر",
+        "blanks": [
+          {
+            "id": "blank1",
+            "answer": "1000"
+          }
+        ],
+        "explanation": "الكيلومتر = 1000 متر."
+      }
+    },
+    {
+      "type": "content",
+      "id": 6,
+      "title": "التحويل بين الوحدات",
+      "body": "للتحويل بين الوحدات، نضرب أو نقسم على **10** لكل خانة.\n\n**مثال : ** $$548,45 dm$$\n\n- تحويل إلى $$m$$ : ننتقل خانة واحدة يميناً ← $$54,845 m$$\n- تحويل إلى $$hm$$ : ننتقل خانتين يميناً ← $$0,54845 hm$$\n- تحويل إلى $$cm$$ : ننتقل خانة واحدة يساراً ← $$5484,5 cm$$\n- تحويل إلى $$mm$$: ننتقل خانتين يساراً ← $$54845 mm$$\n\n**القاعدة:** كل انتقال خانة = ضرب أو قسمة على 10"
+    },
+    {
+      "type": "activity",
+      "id": 7,
+      "activity": {
+        "type": "multiple-choice",
+      "question": "حوّل : $$3,5 km = ? m$$",
+        "options": [
+          "$$35 m$$",
+          "$$350 m$$",
+          "$$3500 m$$",
+          "$$35000 m$$"
+        ],
+        "correctIndex": 2,
+        "explanation": "للتحويل من km إلى m ننتقل 3 خانات: 3,5 × 1000 = 3500 m."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 8,
+      "activity": {
+        "type": "order-items",
+        "instruction": "رتّب وحدات الطول من الأصغر إلى الأكبر",
+        "items": [
+          {
+            "id": "item-0",
+            "label": "mm"
+          },
+          {
+            "id": "item-1",
+            "label": "cm"
+          },
+          {
+            "id": "item-2",
+            "label": "dm"
+          },
+          {
+            "id": "item-3",
+            "label": "m"
+          },
+          {
+            "id": "item-4",
+            "label": "dam"
+          },
+          {
+            "id": "item-5",
+            "label": "hm"
+          },
+          {
+            "id": "item-6",
+            "label": "km"
+          }
+        ],
+        "correctOrder": [
+          "item-0",
+          "item-1",
+          "item-2",
+          "item-3",
+          "item-4",
+          "item-5",
+          "item-6"
+        ],
+        "explanation": "mm < cm < dm < m < dam < hm < km. كل وحدة = 10 × الوحدة السابقة."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 9,
+      "activity": {
+        "type": "true-false",
+        "statements": [
+          {
+            "text": "$$1 cm = 10 mm$$",
+            "correct": true,
+            "explanation": "نعم، كل وحدة تساوي 10 أضعاف الوحدة الأصغر منها."
+          },
+          {
+            "text": "$$1 hm = 10 m$$",
+            "correct": false,
+            "explanation": "1 hm = 100 m، وليس 10 m."
+          },
+          {
+            "text": "$$1 km = 1000 m$$",
+            "correct": true,
+            "explanation": "نعم، الكيلومتر = 1000 متر."
+          }
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "id": 10,
+      "title": "وحدات خاصة",
+      "body": "**الميكرومتر (µm):**\n- $$1 µm = 0,001 mm = 0,000001 m$$\n- يُستعمل لقياس أطوال صغيرة جداً\n\n**الوحدة الفلكية (ua : Astronomical Unit) :**\n- $$1 ua = 15 × 10⁷ km = 150 000 000 km$$\n- تُستعمل لقياس المسافات بين الكواكب"
+    },
+    {
+      "type": "activity",
+      "id": 11,
+      "activity": {
+        "type": "click-to-place",
+        "instruction": "ضع الوحدة المناسبة",
+        "items": [
+          {
+            "id": "item-0",
+            "label": "km"
+          },
+          {
+            "id": "item-1",
+            "label": "mm"
+          },
+          {
+            "id": "item-2",
+            "label": "µm"
+          }
+        ],
+        "slots": [
+          {
+            "id": "slot-1",
+            "label": "المسافة بين مدينتين",
+            "correctItemId": "item-0"
+          },
+          {
+            "id": "slot-2",
+            "label": "سمك ورقة",
+            "correctItemId": "item-1"
+          },
+          {
+            "id": "slot-3",
+            "label": "قياس خلية مجهرية",
+            "correctItemId": "item-2"
+          }
+        ],
+        "explanation": "km للمسافات الكبيرة، mm للأطوال الصغيرة، µm للأطوال المجهرية."
+      }
+    }
+  ],
+  "exam": {
+    "title": "امتحان وحدات قياس الأطوال",
+    "passingScore": 50,
+    "questions": [
+      {
+        "id": 1,
+        "activity": {
+          "type": "multiple-choice",
+          "question": "ما هي الوحدة الأساسية لقياس الأطوال؟",
+          "options": [
+            "الكيلومتر",
+            "المتر",
+            "السنتمتر",
+            "الديسمتر"
+          ],
+          "correctIndex": 1,
+          "explanation": "المتر (m) هو الوحدة الأساسية لقياس الأطوال."
+        }
+      },
+      {
+        "id": 2,
+        "activity": {
+          "type": "fill-blank",
+          "text": "1 كيلومتر = {{blank1}} متر",
+          "blanks": [
+            {
+              "id": "blank1",
+              "answer": "1000"
+            }
+          ],
+          "explanation": "1 km = 1000 m."
+        }
+      },
+      {
+        "id": 3,
+        "activity": {
+          "type": "multiple-choice",
+          "question": "حوّل : $$250 cm = ? m$$",
+          "options": [
+            "$$0,25 m$$",
+            "$$2,5 m$$",
+            "$$25 m$$",
+            "$$2500 m$$"
+          ],
+          "correctIndex": 1,
+          "explanation": "للتحويل من cm إلى m نقسم على 100: 250 ÷ 100 = 2,5 m."
+        }
+      },
+      {
+        "id": 4,
+        "activity": {
+          "type": "true-false",
+          "statements": [
+            {
+              "text": "$$1 dm = 10 cm$$",
+              "correct": true,
+              "explanation": "نعم، كل وحدة تساوي 10 أضعاف الوحدة الأصغر."
+            },
+            {
+              "text": "$$1 dam = 100 m$$",
+              "correct": false,
+              "explanation": "1 dam = 10 m، وليس 100 m."
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "activity": {
+          "type": "order-items",
+          "instruction": "رتّب من الأصغر إلى الأكبر",
+          "items": [
+            {
+              "id": "item-0",
+              "label": "mm"
+            },
+            {
+              "id": "item-1",
+              "label": "m"
+            },
+            {
+              "id": "item-2",
+              "label": "hm"
+            },
+            {
+              "id": "item-3",
+              "label": "km"
+            }
+          ],
+          "correctOrder": [
+            "item-0",
+            "item-1",
+            "item-2",
+            "item-3"
+          ],
+          "explanation": "mm < m < hm < km."
+        }
+      },
+      {
+        "id": 6,
+        "activity": {
+          "type": "fill-blank",
+          "text": "1 ميكرومتر = {{blank1}} ميليمتر",
+          "blanks": [
+            {
+              "id": "blank1",
+              "answer": "0,001"
+            }
+          ],
+          "explanation": "1 µm = 0,001 mm."
+        }
+      }
+    ]
+  }
+}

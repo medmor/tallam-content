@@ -1,0 +1,79 @@
+<svg viewBox="0 0 380 200" class="w-full max-w-[360px] mx-auto my-2" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main line -->
+  <line x1="20" y1="90" x2="360" y2="90" stroke="#1E104E" stroke-width="3"/>
+
+  <!-- Tick marks and labels -->
+  <!-- km -->
+  <line x1="40" y1="80" x2="40" y2="100" stroke="#1E104E" stroke-width="2"/>
+  <text x="40" y="68" font-size="13" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">km</text>
+  <text x="40" y="115" font-size="12" fill="#666" text-anchor="middle" dominant-baseline="central">كيلومتر</text>
+
+  <!-- hm -->
+  <line x1="90" y1="80" x2="90" y2="100" stroke="#1E104E" stroke-width="2"/>
+  <text x="90" y="68" font-size="13" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">hm</text>
+  <text x="90" y="115" font-size="12" fill="#666" text-anchor="middle" dominant-baseline="central">هكتومتر</text>
+
+  <!-- dam -->
+  <line x1="140" y1="80" x2="140" y2="100" stroke="#1E104E" stroke-width="2"/>
+  <text x="140" y="68" font-size="13" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">dam</text>
+  <text x="140" y="115" font-size="12" fill="#666" text-anchor="middle" dominant-baseline="central">ديكامتر</text>
+
+  <!-- m (highlighted) -->
+  <line x1="190" y1="75" x2="190" y2="105" stroke="#FF653F" stroke-width="3"/>
+  <text x="190" y="62" font-size="15" fill="#FF653F" font-weight="bold" text-anchor="middle" dominant-baseline="central">m</text>
+  <text x="190" y="118" font-size="13" fill="#FF653F" font-weight="bold" text-anchor="middle" dominant-baseline="central">متر</text>
+
+  <!-- dm -->
+  <line x1="240" y1="80" x2="240" y2="100" stroke="#1E104E" stroke-width="2"/>
+  <text x="240" y="68" font-size="13" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">dm</text>
+  <text x="240" y="115" font-size="12" fill="#666" text-anchor="middle" dominant-baseline="central">ديسمتر</text>
+
+  <!-- cm -->
+  <line x1="290" y1="80" x2="290" y2="100" stroke="#1E104E" stroke-width="2"/>
+  <text x="290" y="68" font-size="13" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">cm</text>
+  <text x="290" y="115" font-size="12" fill="#666" text-anchor="middle" dominant-baseline="central">سنتمتر</text>
+
+  <!-- mm -->
+  <line x1="340" y1="80" x2="340" y2="100" stroke="#1E104E" stroke-width="2"/>
+  <text x="340" y="68" font-size="13" fill="#1E104E" font-weight="bold" text-anchor="middle" dominant-baseline="central">mm</text>
+  <text x="340" y="115" font-size="12" fill="#666" text-anchor="middle" dominant-baseline="central">ميليمتر</text>
+
+  <!-- ×10 arrows going left to right (larger → smaller) -->
+  <text x="65" y="145" font-size="11" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">×10</text>
+  <text x="115" y="145" font-size="11" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">×10</text>
+  <text x="165" y="145" font-size="11" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">×10</text>
+  <text x="215" y="145" font-size="11" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">×10</text>
+  <text x="265" y="145" font-size="11" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">×10</text>
+  <text x="315" y="145" font-size="11" fill="#6D28D9" font-weight="bold" text-anchor="middle" dominant-baseline="central">×10</text>
+
+  <path d="M 48 135 L 82 135" stroke="#6D28D9" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 98 135 L 132 135" stroke="#6D28D9" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 148 135 L 182 135" stroke="#6D28D9" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 198 135 L 232 135" stroke="#6D28D9" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 248 135 L 282 135" stroke="#6D28D9" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 298 135 L 332 135" stroke="#6D28D9" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+
+  <!-- ÷10 arrows going right to left (smaller → larger) -->
+  <text x="65" y="170" font-size="11" fill="#999" font-weight="bold" text-anchor="middle" dominant-baseline="central">÷10</text>
+  <text x="115" y="170" font-size="11" fill="#999" font-weight="bold" text-anchor="middle" dominant-baseline="central">÷10</text>
+  <text x="165" y="170" font-size="11" fill="#999" font-weight="bold" text-anchor="middle" dominant-baseline="central">÷10</text>
+  <text x="215" y="170" font-size="11" fill="#999" font-weight="bold" text-anchor="middle" dominant-baseline="central">÷10</text>
+  <text x="265" y="170" font-size="11" fill="#999" font-weight="bold" text-anchor="middle" dominant-baseline="central">÷10</text>
+  <text x="315" y="170" font-size="11" fill="#999" font-weight="bold" text-anchor="middle" dominant-baseline="central">÷10</text>
+
+  <path d="M 83 160 L 49 160" stroke="#999" stroke-width="1.5" fill="none" marker-end="url(#arrowhead2)"/>
+  <path d="M 133 160 L 99 160" stroke="#999" stroke-width="1.5" fill="none" marker-end="url(#arrowhead2)"/>
+  <path d="M 183 160 L 149 160" stroke="#999" stroke-width="1.5" fill="none" marker-end="url(#arrowhead2)"/>
+  <path d="M 233 160 L 199 160" stroke="#999" stroke-width="1.5" fill="none" marker-end="url(#arrowhead2)"/>
+  <path d="M 283 160 L 249 160" stroke="#999" stroke-width="1.5" fill="none" marker-end="url(#arrowhead2)"/>
+  <path d="M 333 160 L 299 160" stroke="#999" stroke-width="1.5" fill="none" marker-end="url(#arrowhead2)"/>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#6D28D9"/>
+    </marker>
+    <marker id="arrowhead2" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#999"/>
+    </marker>
+  </defs>
+</svg>
