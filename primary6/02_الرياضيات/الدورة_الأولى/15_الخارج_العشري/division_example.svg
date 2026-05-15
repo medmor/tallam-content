@@ -1,0 +1,102 @@
+<svg viewBox="0 0 380 460" class="w-full max-w-[340px] mx-auto my-2" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#FFD700"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="380" height="520" fill="#2D8B4E" rx="8"/>
+
+  <!-- ========== TOP SECTION: Multiplication step ========== -->
+  <rect x="10" y="10" width="360" height="120" fill="#1a6b38" rx="6"/>
+
+  <!-- Original problem -->
+  <text x="190" y="35" font-size="16" fill="white" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">4,56 ÷ 0,17</text>
+
+  <!-- Arrow with ×100 label -->
+  <line x1="170" y1="50" x2="170" y2="72" stroke="#FFD700" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="140" y="64" font-size="14" fill="#FFD700" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">×</text>
+  <text x="200" y="64" font-size="14" fill="#FFD700" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">100</text>
+
+  <!-- Transformed problem -->
+  <text x="190" y="90" font-size="16" fill="white" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">456 ÷ 17</text>
+
+  <!-- Explanation -->
+  <text x="190" y="115" font-size="12" fill="white" opacity="0.8" text-anchor="middle" dominant-baseline="central">0,17 فيه رقمان بعد الفاصلة ← نضرب في 100</text>
+
+  <!-- ========== BOTTOM SECTION: Long division ========== -->
+  <rect x="10" y="140" width="360" height="340" fill="transparent" rx="6"/>
+
+  <!-- Top horizontal line -->
+  <line x1="200" y1="170" x2="355" y2="170" stroke="white" stroke-width="2.5"/>
+  <!-- Vertical line -->
+  <line x1="200" y1="145" x2="200" y2="420" stroke="white" stroke-width="2.5"/>
+
+  <!-- Dividend: 456,0 -->
+  <text x="40" y="160" font-size="22" fill="white" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">4</text>
+  <text x="75" y="160" font-size="22" fill="white" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">5</text>
+  <text x="110" y="160" font-size="22" fill="white" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">6</text>
+  <text x="140" y="160" font-size="20" fill="white" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">,</text>
+  <text x="165" y="160" font-size="22" fill="white" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">0</text>
+
+  <!-- Divisor: 17 -->
+  <text x="265" y="160" font-size="22" fill="white" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">17</text>
+
+  <!-- Quotient: 26,82 -->
+  <text x="225" y="190" font-size="22" fill="#FFD700" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">2</text>
+  <text x="250" y="190" font-size="22" fill="#FFD700" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">6</text>
+  <text x="272" y="190" font-size="20" fill="#FFD700" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">,</text>
+  <text x="298" y="190" font-size="22" fill="#FFD700" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">8</text>
+  <text x="325" y="190" font-size="22" fill="#FFD700" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">2</text>
+
+  <!-- Step 1: 34 below 45 -->
+  <text x="40" y="200" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">3</text>
+  <text x="75" y="200" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">4</text>
+
+  <!-- Line under 34 -->
+  <line x1="20" y1="210" x2="170" y2="210" stroke="white" stroke-width="1.5"/>
+
+  <!-- Step 2: 116 -->
+  <text x="40" y="230" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">1</text>
+  <text x="75" y="230" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">1</text>
+  <text x="110" y="230" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">6</text>
+
+  <!-- 102 below 116 -->
+  <text x="40" y="258" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">1</text>
+  <text x="75" y="258" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">0</text>
+  <text x="110" y="258" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">2</text>
+
+  <!-- Line under 102 -->
+  <line x1="20" y1="268" x2="170" y2="268" stroke="white" stroke-width="1.5"/>
+
+  <!-- Step 3: bring down 0, 140 -->
+  <text x="110" y="288" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">1</text>
+  <text x="140" y="288" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">4</text>
+  <text x="165" y="288" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">0</text>
+
+  <!-- 136 below 140 -->
+  <text x="110" y="316" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">1</text>
+  <text x="140" y="316" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">3</text>
+  <text x="165" y="316" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">6</text>
+
+  <!-- Line under 136 -->
+  <line x1="90" y1="326" x2="175" y2="326" stroke="white" stroke-width="1.5"/>
+
+  <!-- Step 4: 40 -->
+  <text x="140" y="350" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">4</text>
+  <text x="165" y="350" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">0</text>
+
+  <!-- 34 below 40 -->
+  <text x="140" y="378" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">3</text>
+  <text x="165" y="378" font-size="18" fill="white" font-family="monospace, Courier New" text-anchor="middle" dominant-baseline="central">4</text>
+
+  <!-- Line under 34 -->
+  <line x1="120" y1="388" x2="175" y2="388" stroke="white" stroke-width="1.5"/>
+
+  <!-- Remainder: 6 -->
+  <text x="165" y="410" font-size="22" fill="#FFD700" font-family="monospace, Courier New" font-weight="bold" text-anchor="middle" dominant-baseline="central">6</text>
+
+  <!-- Bottom labels -->
+  <text x="190" y="445" font-size="13" fill="white" opacity="0.8" text-anchor="middle" dominant-baseline="central">4,56 ÷ 0,17 = 26,82</text>
+</svg>
