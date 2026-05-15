@@ -1,0 +1,417 @@
+{
+  "id": "primary6/02-الرياضيات/الدورة-الأولى/16-الدائرة-والقرص",
+  "title": "الدائرة والقرص",
+  "subject": "الرياضيات",
+  "semester": "الدورة الأولى",
+  "steps": [
+    {
+      "type": "content",
+      "id": 1,
+      "title": "الدائرة",
+      "body": "**الدائرة (C)** التي مركزها **O** وشعاعها **r** هي مجموعة النقط M من المستوى بحيث:\n\n$$OM = r$$\n\n- النقطة M تنتمي إلى الدائرة: $$OM = r$$\n- النقطة E داخل الدائرة: $$OE < r$$\n- النقطة F خارج الدائرة: $$OF > r$$\n\n{{svg:circle.svg}}"
+    },
+    {
+      "type": "activity",
+      "id": 2,
+      "activity": {
+        "type": "fill-blank",
+        "text": "إذا كانت النقطة M على الدائرة التي شعاعها r فإن $$OM = {{blank1}}$$",
+        "blanks": [
+          {
+            "id": "blank1",
+            "answer": "r"
+          }
+        ],
+        "explanation": "كل نقطة على الدائرة تبعد عن المركز مسافة تساوي الشعاع r."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 3,
+      "activity": {
+        "type": "click-to-place",
+        "instruction": "ضع كل نقطة في المكان المناسب",
+        "items": [
+          {
+            "id": "item-0",
+            "label": "على الدائرة"
+          },
+          {
+            "id": "item-1",
+            "label": "داخل الدائرة"
+          },
+          {
+            "id": "item-2",
+            "label": "خارج الدائرة"
+          }
+        ],
+        "slots": [
+          {
+            "id": "slot-1",
+            "label": "OM = r",
+            "correctItemId": "item-0"
+          },
+          {
+            "id": "slot-2",
+            "label": "OE < r",
+            "correctItemId": "item-1"
+          },
+          {
+            "id": "slot-3",
+            "label": "OF > r",
+            "correctItemId": "item-2"
+          }
+        ],
+        "explanation": "على الدائرة: المساواة (= r). داخلها: أقل (< r). خارجها: أكبر (> r)."
+      }
+    },
+    {
+      "type": "content",
+      "id": 4,
+      "title": "القرص",
+      "body": "**القرص (D)** الذي مركزه **O** وشعاعه **r** هو مجموعة النقط N من المستوى بحيث:\n\n$$ON ≤ r$$\n\n- القرص يحتوي على الدائرة (المحيط) وجميع النقط الداخلية\n- النقطة N تنتمي إلى القرص إذا كانت المسافة ON أقل من أو تساوي r\n\n{{svg:disk.svg}}"
+    },
+    {
+      "type": "activity",
+      "id": 5,
+      "activity": {
+        "type": "true-false",
+        "statements": [
+          {
+            "text": "القرص يحتوي على جميع نقط الدائرة",
+            "correct": true,
+            "explanation": "صحيح، القرص يتضمن المحيط (الدائرة) وجميع النقط الداخلية."
+          },
+          {
+            "text": "الدائرة والقرص هما نفس الشيء",
+            "correct": false,
+            "explanation": "الدائرة هي المحيط فقط، أما القرص فهو المحيط وما بداخله."
+          }
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "id": 6,
+      "title": "الوتر والقطر",
+      "body": "- **الوتر**: كل قطعة طرفاها يقعان على الدائرة\n- **القطر**: وتر يمر من مركز الدائرة\n\nالقطر يساوي ضعف الشعاع: $$D = 2 × r$$\n\n{{svg:chord_diameter.svg}}"
+    },
+    {
+      "type": "activity",
+      "id": 7,
+      "activity": {
+        "type": "fill-blank",
+        "text": "إذا كان الشعاع r = 4 cm فإن القطر D = {{blank1}} cm",
+        "blanks": [
+          {
+            "id": "blank1",
+            "answer": "8"
+          }
+        ],
+        "explanation": "القطر = 2 × الشعاع = 2 × 4 = 8 cm."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 8,
+      "activity": {
+        "type": "multiple-choice",
+        "question": "أي من العبارات التالية صحيحة؟",
+        "options": [
+          "كل قطر هو وتر وكل وتر هو قطر",
+          "كل قطر هو وتر لكن ليس كل وتر هو قطر",
+          "كل وتر هو قطر لكن ليس كل قطر هو وتر",
+          "لا علاقة بين الوتر والقطر"
+        ],
+        "correctIndex": 1,
+        "explanation": "القطر وتر يمر من المركز، لكن الوتر العادي لا يمر من المركز."
+      }
+    },
+    {
+      "type": "content",
+      "id": 9,
+      "title": "المماس للدائرة",
+      "body": "**المماس** لدائرة هو مستقيم يقطع الدائرة في **نقطة وحيدة**.\n\nإذا كان (D) مماساً للدائرة (C) في النقطة H، فإن:\n- (D) يتعامد مع الشعاع OH\n- H هي نقطة التماس\n\n{{svg:tangent.svg}}"
+    },
+    {
+      "type": "activity",
+      "id": 10,
+      "activity": {
+        "type": "true-false",
+        "statements": [
+          {
+            "text": "المماس للدائرة يقطعها في نقطتين",
+            "correct": false,
+            "explanation": "خطأ! المماس يقطع الدائرة في نقطة وحيدة فقط."
+          },
+          {
+            "text": "المماس يتعامد مع الشعاع المار من نقطة التماس",
+            "correct": true,
+            "explanation": "صحيح! المماس دائماً يتعامد مع الشعاع في نقطة التماس."
+          }
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "id": 11,
+      "title": "محيط الدائرة ومساحة القرص",
+      "body": "**محيط الدائرة:**\n\n$$P = D × Π = 2 × r × Π$$\n\nحيث:\n- D = القطر\n- r = الشعاع\n- Π ≈ 3,14\n\n**مساحة القرص:**\n\n$$S = r × r × Π$$\n\n{{svg:formulas.svg}}"
+    },
+    {
+      "type": "content",
+      "id": 12,
+      "title": "مثال: حساب المحيط والمساحة",
+      "body": "**مثال:** دائرة شعاعها r = 5 cm\n\n**محيط الدائرة:**\n$$P = 2 × 5 × 3,14 = 31,4 cm$$\n\n**مساحة القرص:**\n$$S = 5 × 5 × 3,14 = 78,5 cm²$$\n\n{{svg:example.svg}}"
+    },
+    {
+      "type": "activity",
+      "id": 13,
+      "activity": {
+        "type": "fill-blank",
+        "text": "محيط دائرة شعاعها r = 7 cm يساوي {{blank1}} cm (Π ≈ 3,14)",
+        "blanks": [
+          {
+            "id": "blank1",
+            "answer": "43,96"
+          }
+        ],
+        "explanation": "P = 2 × r × Π = 2 × 7 × 3,14 = 43,96 cm."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 14,
+      "activity": {
+        "type": "fill-blank",
+        "text": "مساحة قرص شعاعه $$r = 6 cm$$ تساوي $${{blank1}} cm²$$ (Π ≈ 3,14)",
+        "blanks": [
+          {
+            "id": "blank1",
+            "answer": "113,04"
+          }
+        ],
+        "explanation": "S = r × r × Π = 6 × 6 × 3,14 = 113,04 cm²."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 15,
+      "activity": {
+        "type": "multiple-choice",
+        "question": "إذا كان قطر دائرة D = 10 cm فإن محيطها يساوي:",
+        "options": [
+          "$$31,4 cm$$",
+          "$$62,8 cm$$",
+          "$$78,5 cm$$",
+          "$$314 cm$$"
+        ],
+        "correctIndex": 0,
+        "explanation": "P = D × Π = 10 × 3,14 = 31,4 cm. (لاحظ: 62,8 هو محيط دائرة شعاعها 10 أما القطر 10 فشعاعها 5)."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 16,
+      "activity": {
+        "type": "click-to-place",
+        "instruction": "ضع القيمة المناسبة في كل خانة",
+        "items": [
+          {
+            "id": "item-0",
+            "label": "r"
+          },
+          {
+            "id": "item-1",
+            "label": "D"
+          },
+          {
+            "id": "item-2",
+            "label": "Π"
+          }
+        ],
+        "slots": [
+          {
+            "id": "slot-1",
+            "label": "$$P = 2 × ___ × 3,14$$",
+            "correctItemId": "item-0"
+          },
+          {
+            "id": "slot-2",
+            "label": "$$P = ___ × 3,14$$",
+            "correctItemId": "item-1"
+          },
+          {
+            "id": "slot-3",
+            "label": "$$S = r × r × ___$$",
+            "correctItemId": "item-2"
+          }
+        ],
+        "explanation": "محيط الدائرة: P = 2rΠ أو P = DΠ. مساحة القرص: S = r²Π."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 17,
+      "activity": {
+        "type": "order-items",
+        "instruction": "رتّب من الأصغر إلى الأكبر",
+        "items": [
+          {
+            "id": "item-0",
+            "label": "الشعاع r"
+          },
+          {
+            "id": "item-1",
+            "label": "القطر D"
+          },
+          {
+            "id": "item-2",
+            "label": "المحيط P"
+          }
+        ],
+        "correctOrder": [
+          "item-0",
+          "item-1",
+          "item-2"
+        ],
+        "explanation": "r < D (= 2r) < P (= 2rΠ ≈ 6,28r). الشعاع أقل من القطر والمحيط أكبر من القطر."
+      }
+    }
+  ],
+  "exam": {
+    "title": "امتحان الدائرة والقرص",
+    "passingScore": 50,
+    "questions": [
+      {
+        "id": 1,
+        "activity": {
+          "type": "multiple-choice",
+          "question": "متى تنتمي النقطة M إلى الدائرة (C) التي مركزها O وشعاعها r؟",
+          "options": [
+            " OM > r",
+            "OM = r",
+            "OM < r",
+            "OM = 0"
+          ],
+          "correctIndex": 1,
+          "explanation": "النقطة تنتمي إلى الدائرة إذا كانت المسافة تساوي الشعاع: OM = r."
+        }
+      },
+      {
+        "id": 2,
+        "activity": {
+          "type": "fill-blank",
+          "text": "نقطة داخل القرص تبعد عن المركز مسافة {{blank1}} الشعاع r",
+          "blanks": [
+            {
+              "id": "blank1",
+              "answer": "أقل من"
+            }
+          ],
+          "explanation": "النقطة داخل القرص: ON < r (أقل من الشعاع)."
+        }
+      },
+      {
+        "id": 3,
+        "activity": {
+          "type": "true-false",
+          "statements": [
+            {
+              "text": "القطر يساوي ضعف الشعاع",
+              "correct": true,
+              "explanation": "صحيح، D = 2 × r."
+            },
+            {
+              "text": "كل وتر هو قطر",
+              "correct": false,
+              "explanation": "خطأ، الوتر قطعة طرفاها على الدائرة. القطر وتر يمر من المركز فقط."
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "activity": {
+          "type": "fill-blank",
+          "text": "محيط دائرة قطرها D = 8 cm يساوي {{blank1}} cm (Π ≈ 3,14)",
+          "blanks": [
+            {
+              "id": "blank1",
+              "answer": "25,12"
+            }
+          ],
+          "explanation": "P = D × Π = 8 × 3,14 = 25,12 cm."
+        }
+      },
+      {
+        "id": 5,
+        "activity": {
+          "type": "multiple-choice",
+          "question": "مساحة قرص شعاعه r = 3 cm تساوي:",
+          "options": [
+            "$$18,84 cm²$$",
+            "$$9,42 cm²$$",
+            "$$28,26 cm²$$",
+            "$$6,28 cm²$$"
+          ],
+          "correctIndex": 2,
+          "explanation": "S = r × r × Π = 3 × 3 × 3,14 = 28,26 cm²."
+        }
+      },
+      {
+        "id": 6,
+        "activity": {
+          "type": "click-to-place",
+          "instruction": "صنّف كل عبارة",
+          "items": [
+            {
+              "id": "item-0",
+              "label": "على الدائرة"
+            },
+            {
+              "id": "item-1",
+              "label": "داخل القرص"
+            },
+            {
+              "id": "item-2",
+              "label": "خارج الدائرة"
+            }
+          ],
+          "slots": [
+            {
+              "id": "slot-1",
+              "label": "OM = r",
+              "correctItemId": "item-0"
+            },
+            {
+              "id": "slot-2",
+              "label": "ON ≤ r",
+              "correctItemId": "item-1"
+            },
+            {
+              "id": "slot-3",
+              "label": "OF > r",
+              "correctItemId": "item-2"
+            }
+          ],
+          "explanation": "على الدائرة: = r. داخل القرص: ≤ r. خارج الدائرة: > r."
+        }
+      },
+      {
+        "id": 7,
+        "activity": {
+          "type": "fill-blank",
+          "text": "إذا كان محيط دائرة P = 31,4 cm فإن قطرها D = {{blank1}} cm",
+          "blanks": [
+            {
+              "id": "blank1",
+              "answer": "10"
+            }
+          ],
+          "explanation": "D = P ÷ Π = 31,4 ÷ 3,14 = 10 cm."
+        }
+      }
+    ]
+  }
+}

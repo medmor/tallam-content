@@ -1,0 +1,37 @@
+<svg viewBox="0 0 360 340" class="w-full max-w-[340px] mx-auto my-2" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="360" height="340" fill="#2D8B4E" rx="8"/>
+
+  <!-- Circle -->
+  <circle cx="180" cy="120" r="90" fill="none" stroke="white" stroke-width="2"/>
+
+  <!-- Center O -->
+  <circle cx="180" cy="120" r="4" fill="#FFD700"/>
+
+  <!-- Radius highlight -->
+  <line x1="180" y1="120" x2="270" y2="120" stroke="#FFD700" stroke-width="2.5" stroke-dasharray="6 3"/>
+  <text x="230" y="113" font-size="13" fill="#FFD700" font-weight="bold" text-anchor="middle">r</text>
+
+  <!-- Diameter line -->
+  <line x1="90" y1="120" x2="270" y2="120" stroke="white" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Labels on circle -->
+  <text x="180" y="138" font-size="14" fill="#FFD700" font-weight="bold" text-anchor="middle">O</text>
+
+  <!-- Formulas section -->
+  <rect x="20" y="230" width="320" height="100" fill="rgba(255,255,255,0.1)" rx="6"/>
+
+  <!-- Perimeter formulas -->
+  <text x="70" y="255" font-size="13" fill="white" font-weight="bold" text-anchor="middle">محيط الدائرة : </text>
+  <text x="200" y="255" font-size="13" fill="#FFD700" font-family="monospace" font-weight="bold" text-anchor="middle">P = D × Π = 2 × r × Π</text>
+
+  <!-- Area formulas -->
+  <text x="70" y="280" font-size="13" fill="white" font-weight="bold" text-anchor="middle">مساحة القرص : </text>
+  <text x="170" y="280" font-size="13" fill="#FFD700" font-family="monospace" font-weight="bold" text-anchor="middle">S = r × r × Π</text>
+
+  <!-- Pi value -->
+  <text x="180" y="325" font-size="13" fill="#FF653F" font-weight="bold" text-anchor="middle">Π ≈ 3,14</text>
+  <text x="180" y="305" font-size="12" fill="white" opacity="0.7" text-anchor="middle">(تقريب إلى 0,01)</text>
+
+  <!-- Diameter label -->
+  <text x="180" y="112" font-size="12" fill="white" opacity="0.8" text-anchor="middle">2r = D</text>
+</svg>
