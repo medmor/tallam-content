@@ -1,94 +1,95 @@
 <svg viewBox="0 0 300 270" class="w-full max-w-[280px] mx-auto my-2" xmlns="http://www.w3.org/2000/svg">
   <rect x="0" y="0" width="300" height="270" fill="#2D8B4E" rx="8"/>
 
-  <!-- Step 1: Center O appears (0→5%) -->
+  <!-- Animation: 0→90% drawing, 90→100% pause. Total 20s. -->
+  <!-- Drawing phase runs 0-18s, pause 18-20s -->
+
+  <!-- Step 1: Center O appears (0→3%) -->
   <circle cx="150" cy="120" r="3" fill="#FFD700" opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.02;0.05;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.01;0.03;1" dur="20s" repeatCount="indefinite"/>
   </circle>
   <text x="140" y="136" font-size="11" fill="#FFD700" font-weight="bold" opacity="0">O
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.02;0.05;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.01;0.03;1" dur="20s" repeatCount="indefinite"/>
   </text>
 
-  <!-- Step 2: Circle draws (5→18%) -->
+  <!-- Step 2: Circle draws (3→18%) -->
   <circle cx="150" cy="120" r="85" fill="none" stroke="white" stroke-width="2" stroke-dasharray="534" stroke-dashoffset="534">
-    <animate attributeName="stroke-dashoffset" values="534;534;0;0" keyTimes="0;0.05;0.18;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" values="534;534;0;0" keyTimes="0;0.03;0.18;1" dur="20s" repeatCount="indefinite"/>
   </circle>
 
   <!-- Step 3: Diameter AB draws (18→28%) -->
   <line x1="65" y1="120" x2="235" y2="120" stroke="#FF0000" stroke-width="2.5" stroke-dasharray="170" stroke-dashoffset="170">
-    <animate attributeName="stroke-dashoffset" values="170;170;0;0" keyTimes="0;0.18;0.28;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" values="170;170;0;0" keyTimes="0;0.18;0.28;1" dur="20s" repeatCount="indefinite"/>
   </line>
   <!-- Point A -->
   <circle cx="65" cy="120" r="4" fill="#FF0000" opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.28;0.32;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.28;0.32;1" dur="20s" repeatCount="indefinite"/>
   </circle>
   <text x="50" y="136" font-size="13" fill="#FF0000" font-weight="bold" opacity="0">A
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.28;0.32;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.28;0.32;1" dur="20s" repeatCount="indefinite"/>
   </text>
   <!-- Point B -->
   <circle cx="235" cy="120" r="4" fill="#FF0000" opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.28;0.32;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.28;0.32;1" dur="20s" repeatCount="indefinite"/>
   </circle>
   <text x="240" y="136" font-size="13" fill="#FF0000" font-weight="bold" opacity="0">B
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.28;0.32;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.28;0.32;1" dur="20s" repeatCount="indefinite"/>
   </text>
 
   <!-- Step 4: Point C appears (32→38%) -->
   <circle cx="150" cy="35" r="4" fill="white" opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.32;0.38;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.32;0.38;1" dur="20s" repeatCount="indefinite"/>
   </circle>
   <text x="153" y="28" font-size="13" fill="white" font-weight="bold" opacity="0">C
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.32;0.38;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.32;0.38;1" dur="20s" repeatCount="indefinite"/>
   </text>
 
   <!-- Step 5: Line AC draws (38→48%) -->
   <line x1="65" y1="120" x2="150" y2="35" stroke="white" stroke-width="2" stroke-dasharray="120" stroke-dashoffset="120">
-    <animate attributeName="stroke-dashoffset" values="120;120;0;0" keyTimes="0;0.38;0.48;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" values="120;120;0;0" keyTimes="0;0.38;0.48;1" dur="20s" repeatCount="indefinite"/>
   </line>
 
   <!-- Step 6: Line BC draws (48→58%) -->
   <line x1="235" y1="120" x2="150" y2="35" stroke="white" stroke-width="2" stroke-dasharray="120" stroke-dashoffset="120">
-    <animate attributeName="stroke-dashoffset" values="120;120;0;0" keyTimes="0;0.48;0.58;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" values="120;120;0;0" keyTimes="0;0.48;0.58;1" dur="20s" repeatCount="indefinite"/>
   </line>
 
   <!-- Step 7: Right angle at C (58→64%) -->
   <path d="M 142.9 42.1 L 150 49.1 L 157.1 42.1" fill="none" stroke="#FFD700" stroke-width="1.5" opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.58;0.64;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.58;0.64;1" dur="20s" repeatCount="indefinite"/>
   </path>
 
   <!-- Step 8: Point M appears (66→70%) -->
   <circle cx="87" cy="63" r="4" fill="#0000FF" opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.66;0.70;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.66;0.70;1" dur="20s" repeatCount="indefinite"/>
   </circle>
   <text x="68" y="57" font-size="13" fill="#0000FF" font-weight="bold" opacity="0">M
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.66;0.70;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.66;0.70;1" dur="20s" repeatCount="indefinite"/>
   </text>
 
   <!-- Line AM (70→76%) -->
-  <line x1="65" y1="120" x2="87" y2="63" stroke="#0000FF" stroke-width="1.5" stroke-dasharray="5 3" stroke-dashoffset="65" opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.70;0.74;1" dur="15s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-dashoffset" values="65;65;0;0" keyTimes="0;0.70;0.76;1" dur="15s" repeatCount="indefinite"/>
+  <line x1="65" y1="120" x2="87" y2="63" stroke="#0000FF" stroke-width="1.5" stroke-dasharray="5 3" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.70;0.74;1" dur="20s" repeatCount="indefinite"/>
   </line>
 
   <!-- Line MB (76→83%) -->
-  <line x1="87" y1="63" x2="235" y2="120" stroke="#0000FF" stroke-width="1.5" stroke-dasharray="5 3" stroke-dashoffset="170" opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.76;0.80;1" dur="15s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-dashoffset" values="170;170;0;0" keyTimes="0;0.76;0.83;1" dur="15s" repeatCount="indefinite"/>
+  <line x1="87" y1="63" x2="235" y2="120" stroke="#0000FF" stroke-width="1.5" stroke-dasharray="5 3" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.76;0.80;1" dur="20s" repeatCount="indefinite"/>
   </line>
 
   <!-- Right angle at M (83→87%) -->
   <rect x="87" y="63" width="10" height="10" fill="none" stroke="#0000FF" stroke-width="1" transform="rotate(22,87,63)" opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.83;0.87;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.83;0.87;1" dur="20s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Bottom labels (88→100% = pause) -->
-  <text x="150" y="220" font-size="12" fill="white" opacity="0.9" text-anchor="middle" opacity="0">المثلث ABC قائم الزاوية في C
-    <animate attributeName="opacity" values="0;0;0.9;0.9;0" keyTimes="0;0.88;0.92;0.95;1" dur="15s" repeatCount="indefinite"/>
+  <!-- Bottom labels (90→100% = 2s pause) -->
+  <text x="150" y="220" font-size="12" fill="white" text-anchor="middle" opacity="0">المثلث ABC قائم الزاوية في C
+    <animate attributeName="opacity" values="0;0;0.9;0.9;0" keyTimes="0;0.90;0.93;0.97;1" dur="20s" repeatCount="indefinite"/>
   </text>
-  <text x="150" y="238" font-size="11" fill="#0000FF" opacity="0.9" text-anchor="middle" opacity="0">والمثلث AMB قائم الزاوية في M
-    <animate attributeName="opacity" values="0;0;0.9;0.9;0" keyTimes="0;0.88;0.92;0.95;1" dur="15s" repeatCount="indefinite"/>
+  <text x="150" y="238" font-size="11" fill="#0000FF" text-anchor="middle" opacity="0">والمثلث AMB قائم الزاوية في M
+    <animate attributeName="opacity" values="0;0;0.9;0.9;0" keyTimes="0;0.90;0.93;0.97;1" dur="20s" repeatCount="indefinite"/>
   </text>
-  <text x="150" y="250" font-size="10" fill="white" opacity="0.7" text-anchor="middle" opacity="0">مهما كانت M و C على الدائرة
-    <animate attributeName="opacity" values="0;0;0.7;0.7;0" keyTimes="0;0.88;0.92;0.95;1" dur="15s" repeatCount="indefinite"/>
+  <text x="150" y="250" font-size="10" fill="white" text-anchor="middle" opacity="0">مهما كانت M و C على الدائرة
+    <animate attributeName="opacity" values="0;0;0.7;0.7;0" keyTimes="0;0.90;0.93;0.97;1" dur="20s" repeatCount="indefinite"/>
   </text>
 </svg>
