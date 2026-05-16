@@ -1,0 +1,25 @@
+<svg direction="ltr" viewBox="0 0 420 200" class="w-full max-w-[400px] mx-auto my-2" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="420" height="200" fill="#2D8B4E" rx="8"/>
+
+  <!-- Title -->
+  <text x="210" y="28" font-size="15" fill="#FFD700" font-weight="bold" text-anchor="middle">العلاقات بين الوحدات</text>
+
+  <!-- Main formula box -->
+  <rect x="20" y="45" width="380" height="55" fill="rgba(255,255,255,0.1)" rx="6"/>
+
+  <!-- Key relationships -->
+  <text x="210" y="68" font-size="14" fill="white" font-weight="bold" text-anchor="middle">1 kg = 1000 g</text>
+  <text x="210" y="90" font-size="13" fill="white" text-anchor="middle">1 hg = 100 g &nbsp;&nbsp;|&nbsp;&nbsp; 1 dag = 10 g</text>
+
+  <!-- Multiples -->
+  <rect x="20" y="110" width="185" height="75" fill="rgba(255,101,63,0.15)" rx="6"/>
+  <text x="112" y="132" font-size="13" fill="#ff0000" font-weight="bold" text-anchor="middle">المضاعفات</text>
+  <text x="112" y="152" font-size="12" fill="white" text-anchor="middle">1 t = 1000 kg</text>
+  <text x="112" y="170" font-size="12" fill="white" text-anchor="middle">1 q = 100 kg</text>
+
+  <!-- Subunits -->
+  <rect x="215" y="110" width="185" height="75" fill="rgba(16,185,129,0.15)" rx="6"/>
+  <text x="307" y="132" font-size="13" fill="#000000" font-weight="bold" text-anchor="middle">الأجزاء</text>
+  <text x="307" y="152" font-size="12" fill="white" text-anchor="middle">1 dg = 0,1 g</text>
+  <text x="307" y="170" font-size="12" fill="white" text-anchor="middle">1 cg = 0,01 g</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 460 180" class="w-full max-w-[440px] mx-auto my-2" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="460" height="180" fill="#1E104E" rx="8"/>
+
+  <!-- Title -->
+  <text x="230" y="30" font-size="15" fill="#FFD700" font-weight="bold" text-anchor="middle">مثال: تحويل 4572 غرام</text>
+
+  <!-- Conversion table -->
+  <rect x="30" y="50" width="400" height="55" fill="rgba(255,255,255,0.08)" rx="4"/>
+
+  <!-- 9 columns evenly spaced from x=50 to x=410, step=45 -->
+  <!-- Column headers -->
+  <text x="50" y="72" font-size="11" fill="white" text-anchor="middle">t</text>
+  <text x="95" y="72" font-size="11" fill="white" text-anchor="middle">q</text>
+  <text x="140" y="72" font-size="11" fill="white" opacity="0.5" text-anchor="middle">.</text>
+  <text x="185" y="72" font-size="11" fill="#FFD700" font-weight="bold" text-anchor="middle">kg</text>
+  <text x="230" y="72" font-size="11" fill="white" text-anchor="middle">hg</text>
+  <text x="275" y="72" font-size="11" fill="white" text-anchor="middle">dag</text>
+  <text x="320" y="72" font-size="13" fill="white" font-weight="bold" text-anchor="middle">g</text>
+  <text x="365" y="72" font-size="11" fill="white" text-anchor="middle">dg</text>
+  <text x="410" y="72" font-size="11" fill="white" text-anchor="middle">cg</text>
+
+  <!-- Digit values -->
+  <text x="50" y="96" font-size="14" fill="white" text-anchor="middle">0</text>
+  <text x="95" y="96" font-size="14" fill="white" text-anchor="middle">0</text>
+  <text x="140" y="96" font-size="14" fill="white" opacity="0.5" text-anchor="middle">0</text>
+  <text x="185" y="96" font-size="14" fill="#10b981" font-weight="bold" text-anchor="middle">4</text>
+  <text x="230" y="96" font-size="14" fill="white" text-anchor="middle">5</text>
+  <text x="275" y="96" font-size="14" fill="white" text-anchor="middle">7</text>
+  <text x="320" y="96" font-size="14" fill="#FFD700" font-weight="bold" text-anchor="middle">2</text>
+  <text x="365" y="96" font-size="14" fill="white" text-anchor="middle">0</text>
+  <text x="410" y="96" font-size="14" fill="white" text-anchor="middle">0</text>
+
+  <!-- g unit label highlighted -->
+  <text x="320" y="72" font-size="13" fill="#FFD700" font-weight="bold" text-anchor="middle">g</text>
+
+  <!-- Result lines -->
+  <text x="230" y="130" font-size="13" fill="#10b981" font-weight="bold" text-anchor="middle">4572 g = 4,571 kg</text>
+  <text x="230" y="150" font-size="13" fill="#FF653F" font-weight="bold" text-anchor="middle">4572 g = 0,04571 q</text>
+  <text x="230" y="170" font-size="13" fill="white" font-weight="bold" text-anchor="middle">4572 g = 45,71 hg</text>
+</svg>

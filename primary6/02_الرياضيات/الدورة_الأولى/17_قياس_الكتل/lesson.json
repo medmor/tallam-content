@@ -1,0 +1,392 @@
+{
+  "id": "primary6/02-الرياضيات/الدورة-الأولى/17-قياس-الكتل",
+  "title": "قياس الكتل",
+  "subject": "الرياضيات",
+  "semester": "الدورة الأولى",
+  "steps": [
+    {
+      "type": "content",
+      "id": 1,
+      "title": "وحدة قياس الكتل",
+      "body": "الوحدة الأساسية لقياس الكتل هي **الغرام** ويرمز إليها بـ `g`.\n\nلتكوين مضاعفات الغرام تضاف الكلمات:\n- **kilo** (ألف) ← كيلوغرام `kg`\n- **hecto** (مئة) ← هكتوغرام `hg`\n- **déca** (عشرة) ← ديكاغرام `dag`\n\nلتكوين أجزاء الغرام تضاف الكلمات:\n- **déci** (عُشر) ← دسيغرام `dg`\n- **centi** (مئةُ عُشر) ← سنتيغرام `cg`\n- **milli** (ألفُ عُشر) ← ملغرام `mg`\n\nمع وحدتين خاصتين: **القنطار** `q` = 100 kg و **الطن** `t` = 1000 kg"
+    },
+    {
+      "type": "content",
+      "id": 2,
+      "title": "جدول وحدات الكتل",
+      "body": "{{svg:mass_units.svg}}"
+    },
+    {
+      "type": "activity",
+      "id": 3,
+      "activity": {
+        "type": "click-to-place",
+        "instruction": "ضع الرمز المناسب لكل وحدة",
+        "items": [
+          {
+            "id": "item-0",
+            "label": "kg"
+          },
+          {
+            "id": "item-1",
+            "label": "hg"
+          },
+          {
+            "id": "item-2",
+            "label": "dag"
+          }
+        ],
+        "slots": [
+          {
+            "id": "slot-1",
+            "label": "كيلوغرام",
+            "correctItemId": "item-0"
+          },
+          {
+            "id": "slot-2",
+            "label": "هكتوغرام",
+            "correctItemId": "item-1"
+          },
+          {
+            "id": "slot-3",
+            "label": "ديكاغرام",
+            "correctItemId": "item-2"
+          }
+        ],
+        "explanation": "kilo = ألف (1000)، hecto = مئة (100)، déca = عشرة (10)."
+      }
+    },
+    {
+      "type": "content",
+      "id": 4,
+      "title": "العلاقات بين الوحدات",
+      "body": "كل وحدة تساوي **10 أضعاف** الوحدة التي تليها:\n\n- $$1 kg = 10 hg$$\n- $$1 hg = 10 dag$$\n- $$1 dag = 10 g$$\n- $$1 g = 10 dg$$\n- $$1 dg = 10 cg$$\n- $$1 cg = 10 mg$$\n\nعلاقات خاصة:\n- $$1 kg = 1000 g$$\n- $$1 t = 1000 kg$$\n- $$1 q = 100 kg$$\n\n{{svg:relationships.svg}}"
+    },
+    {
+      "type": "activity",
+      "id": 5,
+      "activity": {
+        "type": "fill-blank",
+        "text": "$$1 kg = {{blank1}} g$$",
+        "blanks": [
+          {
+            "id": "blank1",
+            "answer": "1000"
+          }
+        ],
+        "explanation": "1 كيلوغرام = 1000 غرام."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 6,
+      "activity": {
+        "type": "true-false",
+        "statements": [
+          {
+            "text": "$$1 hg = 100 g$$",
+            "correct": true,
+            "explanation": "صحيح، الهكتوغرام يساوي 100 غرام (10 × 10)."
+          },
+          {
+            "text": "$$1 q = 10 kg$$",
+            "correct": false,
+            "explanation": "خطأ، القنطار يساوي 100 كيلوغرام وليس 10."
+          }
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "id": 7,
+      "title": "التحويل بين وحدات الكتل",
+      "body": "للتحويل من وحدة إلى أخرى، نستعمل جدول الوحدات:\n\n- نكتب العدد في جدول الوحدات ابتداءً من وحدة الغرام\n- نضع الفاصلة في عمود الوحدة المطلوبة\n\n**مثال:** تحويل 4572 غرام\n\n{{svg:conversion_example.svg}}"
+    },
+    {
+      "type": "activity",
+      "id": 8,
+      "activity": {
+        "type": "fill-blank",
+        "text": "$$490 g = {{blank1}} cg$$",
+        "blanks": [
+          {
+            "id": "blank1",
+            "answer": "49000"
+          }
+        ],
+        "explanation": "للتحويل من g إلى cg نتحرك عمودين يميناً: 490 × 100 = 49000."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 9,
+      "activity": {
+        "type": "fill-blank",
+        "text": "3,5 kg = {{blank1}} g",
+        "blanks": [
+          {
+            "id": "blank1",
+            "answer": "3500"
+          }
+        ],
+        "explanation": "3,5 × 1000 = 3500 غرام."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 10,
+      "activity": {
+        "type": "multiple-choice",
+        "question": "$$1625 kg + 170,6 q$$ = كم هكتوغرام؟",
+        "options": [
+          "$$1868,5 hg$$",
+          "$$18685 hg$$",
+          "$$1795,6 hg$$",
+          "$$162670 hg$$"
+        ],
+        "correctIndex": 1,
+        "explanation": "1625 kg = 16250 hg و 170,6 q = 17060 hg → 16250 + 17060 = 18685 hg."
+      }
+    },
+    {
+      "type": "content",
+      "id": 11,
+      "title": "جمع كتل بوحدات مختلفة",
+      "body": "لجمع كتل معبر عنها بوحدات مختلفة:\n\n1. نحوّل جميع الكتل إلى نفس الوحدة\n2. نجمع الأعداد\n\n**مثال:** احسب `65,01 dg` + `3,4 dag` بالغرام\n\n- $$65,01 dg = **6,501 g**$$\n- $$3,4 dag = **34 g**$$\n- المجموع = $$6,501 + 34 = **40,501 g**$$"
+    },
+    {
+      "type": "activity",
+      "id": 12,
+      "activity": {
+        "type": "fill-blank",
+        "text": "$$7,04 hg + 108 q = {{blank1}} t$$",
+        "blanks": [
+          {
+            "id": "blank1",
+            "answer": "10.800704"
+          }
+        ],
+        "explanation": "7,04 hg = 0,000704 t و 108 q = 10,8 t → المجموع = 10,800704 t ≈ 10,8 t."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 13,
+      "activity": {
+        "type": "order-items",
+        "instruction": "رتّب من الأصغر إلى الأكبر",
+        "items": [
+          {
+            "id": "item-0",
+            "label": "$$5 cg$$"
+          },
+          {
+            "id": "item-1",
+            "label": "$$0,5 g$$"
+          },
+          {
+            "id": "item-2",
+            "label": "$$0,5 dag$$"
+          },
+          {
+            "id": "item-3",
+            "label": "$$0,05 kg$$"
+          }
+        ],
+        "correctOrder": [
+          "item-0",
+          "item-1",
+          "item-2",
+          "item-3"
+        ],
+        "explanation": "5 cg = 0,05 g ← 0,5 g ← 0,05 dag = 0,5 g ← 0,005 kg = 5 g. التصنيف: 5 cg < 0,5 g < 0,05 dag = 0,5 g, لكن 0,005 kg = 5 g هو الأكبر."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 14,
+      "activity": {
+        "type": "fill-blank",
+        "text": "$$657,4 cg + 82,44 g = {{blank1}} dag$$",
+        "blanks": [
+          {
+            "id": "blank1",
+            "answer": "8,9014"
+          }
+        ],
+        "explanation": "657,4 cg = 6,574 g → 6,574 + 82,44 = 89,014 g → 89,014 ÷ 10 = 8,9014 dag."
+      }
+    },
+    {
+      "type": "content",
+      "id": 15,
+      "title": "الكتلة الحجمية",
+      "body": "**الكتلة الحجمية** تربط الكتلة بالحجم:\n\n- **الكتلة الحجمية** = الكتلة ÷ الحجم\n- $$ρ = m ÷ V$$\n\nمنها يمكن حساب:\n- **الكتلة**: $$m = ρ × V$$\n- **الحجم**: $$V = m ÷ ρ$$\n\n**مثال:** قطعة حديدية حجمها $$2,125 dm³$$ وكتلتها الحجمية $$7,8 kg/dm³$$\n\n$$m = ρ × V = 7,8 × 2,125 = 16,575 kg$$"
+    },
+    {
+      "type": "activity",
+      "id": 16,
+      "activity": {
+        "type": "fill-blank",
+        "text": "كتلة جسم $$340 g$$ وحجمه $$200 cm³$$. الكتلة الحجمية $$ρ = {{blank1}} g/cm³$$",
+        "blanks": [
+          {
+            "id": "blank1",
+            "answer": "1,7"
+          }
+        ],
+        "explanation": "ρ = m ÷ V = 340 ÷ 200 = 1,7 g/cm³."
+      }
+    },
+    {
+      "type": "activity",
+      "id": 17,
+      "activity": {
+        "type": "multiple-choice",
+        "question": "إذا كانت الكتلة الحجمية ρ = 2,5 g/cm³ والحجم V = 40 cm³ فإن الكتلة m تساوي:",
+        "options": [
+          "10 g",
+          "42,5 g",
+          "100 g",
+          "16 g"
+        ],
+        "correctIndex": 2,
+        "explanation": "m = ρ × V = 2,5 × 40 = 100 g."
+      }
+    }
+  ],
+  "exam": {
+    "title": "امتحان قياس الكتل",
+    "passingScore": 50,
+    "questions": [
+      {
+        "id": 1,
+        "activity": {
+          "type": "multiple-choice",
+          "question": "ما هي الوحدة الأساسية لقياس الكتل؟",
+          "options": [
+            "الكيلوغرام",
+            "الغرام",
+            "الطن",
+            "الملغرام"
+          ],
+          "correctIndex": 1,
+          "explanation": "الغرام هو الوحدة الأساسية لقياس الكتل."
+        }
+      },
+      {
+        "id": 2,
+        "activity": {
+          "type": "fill-blank",
+          "text": "$$1 q = {{blank1}} kg$$",
+          "blanks": [
+            {
+              "id": "blank1",
+              "answer": "100"
+            }
+          ],
+          "explanation": "القنطار يساوي 100 كيلوغرام."
+        }
+      },
+      {
+        "id": 3,
+        "activity": {
+          "type": "fill-blank",
+          "text": "$$3,2 kg = {{blank1}} g$$",
+          "blanks": [
+            {
+              "id": "blank1",
+              "answer": "3200"
+            }
+          ],
+          "explanation": "3,2 × 1000 = 3200 غرام."
+        }
+      },
+      {
+        "id": 4,
+        "activity": {
+          "type": "true-false",
+          "statements": [
+            {
+              "text": "$$1 dag = 10 g$$",
+              "correct": true,
+              "explanation": "صحيح، الديكاغرام يساوي 10 غرام."
+            },
+            {
+              "text": "$$1 cg = 0,1 g$$",
+              "correct": false,
+              "explanation": "خطأ، السنتيغرام يساوي 0,01 غرام. 0,1 غرام هو الدسيغرام."
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "activity": {
+          "type": "fill-blank",
+          "text": "$$490 g = {{blank1}} cg$$",
+          "blanks": [
+            {
+              "id": "blank1",
+              "answer": "49000"
+            }
+          ],
+          "explanation": "490 × 100 = 49000 سنتيغرام."
+        }
+      },
+      {
+        "id": 6,
+        "activity": {
+          "type": "click-to-place",
+          "instruction": "ضع الوحدة المناسبة",
+          "items": [
+            {
+              "id": "item-0",
+              "label": "kg"
+            },
+            {
+              "id": "item-1",
+              "label": "g"
+            },
+            {
+              "id": "item-2",
+              "label": "t"
+            }
+          ],
+          "slots": [
+            {
+              "id": "slot-1",
+              "label": "1 طن = 1000 ___",
+              "correctItemId": "item-0"
+            },
+            {
+              "id": "slot-2",
+              "label": "1 كيلوغرام = 1000 ___",
+              "correctItemId": "item-1"
+            },
+            {
+              "id": "slot-3",
+              "label": "1 قنطار = 0,1 ___",
+              "correctItemId": "item-2"
+            }
+          ],
+          "explanation": "1 طن = 1000 kg، 1 kg = 1000 g، 1 q = 0,1 t."
+        }
+      },
+      {
+        "id": 7,
+        "activity": {
+          "type": "fill-blank",
+          "text": "كتلة جسم $$500 g$$ وحجمه $$250 cm³$$. الكتلة الحجمية $$ρ = {{blank1}} g/cm³$$",
+          "blanks": [
+            {
+              "id": "blank1",
+              "answer": "2"
+            }
+          ],
+          "explanation": "ρ = m ÷ V = 500 ÷ 250 = 2 g/cm³."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+<svg viewBox="0 0 480 220" class="w-full max-w-[460px] mx-auto my-2" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="480" height="220" fill="#2D8B4E" rx="8"/>
+
+  <!-- Title -->
+  <text x="240" y="28" font-size="15" fill="#FFD700" font-weight="bold" text-anchor="middle">وحدات قياس الكتل</text>
+
+  <!-- Column headers: multiples -->
+  <text x="200" y="110" font-size="12" fill="#FF0000" font-weight="bold" text-anchor="middle">مضاعفات الغرام</text>
+
+  <!-- Column headers: subunits -->
+  <text x="400" y="110" font-size="12" fill="#000000" font-weight="bold" text-anchor="middle">أجزاء الغرام</text>
+
+  <!-- Table header row -->
+  <rect x="20" y="90" width="440" height="32" fill="rgba(255,255,255,0.1)" rx="4"/>
+
+  <!-- Unit labels row -->
+  <rect x="20" y="125" width="440" height="32" fill="rgba(255,255,255,0.05)" rx="4"/>
+
+  <!-- Conversion arrows: ×10 between columns -->
+  <!-- t → q -->
+  <text x="35" y="148" font-size="12" fill="#FFD700" font-weight="bold" text-anchor="middle">t</text>
+  <text x="85" y="148" font-size="12" fill="#FFD700" font-weight="bold" text-anchor="middle">q</text>
+  <text x="135" y="148" font-size="12" fill="#FFD700" font-weight="bold" text-anchor="middle">kg</text>
+  <text x="185" y="148" font-size="12" fill="white" font-weight="bold" text-anchor="middle">hg</text>
+  <text x="235" y="148" font-size="12" fill="white" font-weight="bold" text-anchor="middle">dag</text>
+  <text x="285" y="148" font-size="14" fill="white" font-weight="bold" text-anchor="middle">g</text>
+  <text x="335" y="148" font-size="12" fill="#000000" font-weight="bold" text-anchor="middle">dg</text>
+  <text x="385" y="148" font-size="12" fill="#000000" font-weight="bold" text-anchor="middle">cg</text>
+  <text x="435" y="148" font-size="12" fill="#000000" font-weight="bold" text-anchor="middle">mg</text>
+
+
+  <!-- ×10 labels between columns -->
+  <text x="60" y="168" font-size="9" fill="white" opacity="0.7" text-anchor="middle">×10</text>
+  <text x="110" y="168" font-size="9" fill="white" opacity="0.7" text-anchor="middle">×10</text>
+  <text x="160" y="168" font-size="9" fill="white" opacity="0.7" text-anchor="middle">×10</text>
+  <text x="210" y="168" font-size="9" fill="white" opacity="0.7" text-anchor="middle">×10</text>
+  <text x="260" y="168" font-size="9" fill="white" opacity="0.7" text-anchor="middle">×10</text>
+  <text x="310" y="168" font-size="9" fill="white" opacity="0.7" text-anchor="middle">×10</text>
+  <text x="360" y="168" font-size="9" fill="white" opacity="0.7" text-anchor="middle">×10</text>
+  <text x="410" y="168" font-size="9" fill="white" opacity="0.7" text-anchor="middle">×10</text>
+  
+
+  <!-- Arabic names -->
+  <text x="35" y="195" font-size="9" fill="white" opacity="0.6" text-anchor="middle">طن</text>
+  <text x="85" y="195" font-size="9" fill="white" opacity="0.6" text-anchor="middle">قنطار</text>
+  <text x="135" y="195" font-size="9" fill="white" opacity="0.6" text-anchor="middle">كيلوغرام</text>
+  <text x="185" y="195" font-size="9" fill="white" opacity="0.6" text-anchor="middle">هكتوغرام</text>
+  <text x="235" y="195" font-size="9" fill="white" opacity="0.6" text-anchor="middle">ديكاغرام</text>
+  <text x="285" y="195" font-size="9" fill="white" opacity="0.6" text-anchor="middle">غرام</text>
+  <text x="335" y="195" font-size="9" fill="white" opacity="0.6" text-anchor="middle">دسيغرام</text>
+  <text x="385" y="195" font-size="9" fill="white" opacity="0.6" text-anchor="middle">سنتيغرام</text>
+  <text x="435" y="195" font-size="9" fill="white" opacity="0.6" text-anchor="middle">ميليغرام</text>
+
+
+  <!-- Direction arrows -->
+</svg>
