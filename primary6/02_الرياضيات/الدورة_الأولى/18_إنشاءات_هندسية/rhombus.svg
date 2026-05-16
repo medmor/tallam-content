@@ -1,0 +1,92 @@
+<svg viewBox="0 0 280 240" class="w-full max-w-[260px] mx-auto my-2" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="280" height="240" fill="#2D8B4E" rx="8"/>
+
+  <!-- Step 1: Draw diagonal AC horizontally (0→15%) -->
+  <line x1="50" y1="120" x2="230" y2="120" stroke="#FF0000" stroke-width="2.5" stroke-dasharray="180" stroke-dashoffset="180">
+    <animate attributeName="stroke-dashoffset" values="180;180;0;0" keyTimes="0;0;0.15;1" dur="10s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Point A (appears at 8%) -->
+  <circle cx="50" cy="120" r="4" fill="white" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.08;0.12;1" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <text x="38" y="116" font-size="13" fill="white" font-weight="bold" opacity="0">A
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.08;0.12;1" dur="10s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Point C (appears at 15%) -->
+  <circle cx="230" cy="120" r="4" fill="white" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.15;0.19;1" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <text x="238" y="116" font-size="13" fill="white" font-weight="bold" opacity="0">C
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.15;0.19;1" dur="10s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- AC label (appears at 19%) -->
+  <text x="140" y="140" font-size="11" fill="#FF0000" text-anchor="middle" opacity="0">AC = 4 cm
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.19;0.23;1" dur="10s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Step 2: Midpoint O (appears at 23%) -->
+  <circle cx="140" cy="120" r="3" fill="#FFD700" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.23;0.27;1" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <text x="148" y="112" font-size="11" fill="#FFD700" font-weight="bold" opacity="0">O
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.23;0.27;1" dur="10s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Step 3: Perpendicular through O (27→38%) -->
+  <line x1="140" y1="188" x2="140" y2="52" stroke="#FF0000" stroke-width="1.5" stroke-dasharray="136" stroke-dashoffset="136">
+    <animate attributeName="stroke-dashoffset" values="136;136;0;0" keyTimes="0;0.27;0.38;1" dur="10s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Right angle symbol at O (appears at 38%) -->
+  <path d="M 150 120 L 150 110 L 140 110" fill="none" stroke="#FFD700" stroke-width="1.5" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.38;0.42;1" dur="10s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Step 4: Mark B and D on perpendicular (42→50%) -->
+  <circle cx="140" cy="52" r="4" fill="white" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.42;0.46;1" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <text x="148" y="48" font-size="13" fill="white" font-weight="bold" opacity="0">B
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.42;0.46;1" dur="10s" repeatCount="indefinite"/>
+  </text>
+
+  <circle cx="140" cy="188" r="4" fill="white" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.46;0.50;1" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <text x="148" y="202" font-size="13" fill="white" font-weight="bold" opacity="0">D
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.46;0.50;1" dur="10s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- BD label (appears at 50%) -->
+  <text x="140" y="90" font-size="10" fill="#FF0000" opacity="0" text-anchor="middle">BD = 3 cm
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.50;0.54;1" dur="10s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Step 5: Draw side AB (54→65%) -->
+  <line x1="50" y1="120" x2="140" y2="52" stroke="white" stroke-width="2.5" stroke-dasharray="113" stroke-dashoffset="113">
+    <animate attributeName="stroke-dashoffset" values="113;113;0;0" keyTimes="0;0.54;0.65;1" dur="10s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- AB label -->
+  <text x="60" y="78" font-size="10" fill="white" opacity="0.8" opacity="0" text-anchor="middle">AB = 2,5 cm
+    <animate attributeName="opacity" values="0;0;0.8;0.8" keyTimes="0;0.65;0.69;1" dur="10s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Step 6: Draw side BC (65→76%) -->
+  <line x1="140" y1="52" x2="230" y2="120" stroke="white" stroke-width="2.5" stroke-dasharray="113" stroke-dashoffset="113">
+    <animate attributeName="stroke-dashoffset" values="113;113;0;0" keyTimes="0;0.65;0.76;1" dur="10s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Step 7: Draw side CD (76→87%) -->
+  <line x1="230" y1="120" x2="140" y2="188" stroke="white" stroke-width="2.5" stroke-dasharray="113" stroke-dashoffset="113">
+    <animate attributeName="stroke-dashoffset" values="113;113;0;0" keyTimes="0;0.76;0.87;1" dur="10s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Step 8: Draw side DA (87→98%) -->
+  <line x1="140" y1="188" x2="50" y2="120" stroke="white" stroke-width="2.5" stroke-dasharray="113" stroke-dashoffset="113">
+    <animate attributeName="stroke-dashoffset" values="113;113;0;0" keyTimes="0;0.87;0.98;1" dur="10s" repeatCount="indefinite"/>
+  </line>
+</svg>

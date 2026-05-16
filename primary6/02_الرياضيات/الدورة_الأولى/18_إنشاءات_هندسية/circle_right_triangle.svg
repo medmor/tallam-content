@@ -1,0 +1,55 @@
+<svg direction="rtl" viewBox="0 0 300 270" class="w-full max-w-[280px] mx-auto my-2" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="300" height="270" fill="#2D8B4E" rx="8"/>
+
+  <!-- Circle -->
+  <circle cx="150" cy="120" r="85" fill="none" stroke="white" stroke-width="2"/>
+
+  <!-- Center O -->
+  <circle cx="150" cy="120" r="3" fill="#FFD700"/>
+
+  <!-- Diameter AB (bottom, horizontal) -->
+  <line x1="65" y1="120" x2="235" y2="120" stroke="#FF0000" stroke-width="2.5"/>
+
+  <!-- Point A (left) -->
+  <circle cx="65" cy="120" r="4" fill="#FF0000"/>
+  <!-- Point B (right) -->
+  <circle cx="235" cy="120" r="4" fill="#FF0000"/>
+
+  <!-- Point C on circle (top) - triangle ABC with right angle at C -->
+  <!-- C at top: (150, 35) -->
+  <!-- Line AC -->
+  <line x1="65" y1="120" x2="150" y2="35" stroke="white" stroke-width="2"/>
+  <!-- Line BC -->
+  <line x1="235" y1="120" x2="150" y2="35" stroke="white" stroke-width="2"/>
+
+  <!-- Point C -->
+  <circle cx="150" cy="35" r="4" fill="white"/>
+
+  <!-- Right angle at C: two perpendicular segments inside the triangle -->
+  <!-- From C, go 10px along AC direction (-0.707,+0.707) to point P(142.9,42.1) -->
+  <!-- From C, go 10px along BC direction (+0.707,+0.707) to point Q(157.1,42.1) -->
+  <!-- From P, go 10px along BC direction to point R(150,49.1) -->
+  <path d="M 142.9 42.1 L 150 49.1 L 157.1 42.1" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+
+  <!-- Point M on circle (left side) -->
+  <circle cx="87" cy="63" r="4" fill="#0000FF"/>
+
+  <!-- Lines AM and MB showing right angle at M -->
+  <line x1="65" y1="120" x2="87" y2="63" stroke="#0000FF" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <line x1="87" y1="63" x2="235" y2="120" stroke="#0000FF" stroke-width="1.5" stroke-dasharray="5 3"/>
+
+  <!-- Small right angle at M -->
+  <rect x="87" y="63" width="10" height="10" fill="none" stroke="#0000FF" stroke-width="1" transform="rotate(22,87,63)"  />
+
+  <!-- Labels -->
+  <text x="50" y="136" font-size="13" fill="#FF0000" font-weight="bold">A</text>
+  <text x="240" y="136" font-size="13" fill="#FF0000" font-weight="bold">B</text>
+  <text x="153" y="28" font-size="13" fill="white" font-weight="bold">C</text>
+  <text x="68" y="57" font-size="13" fill="#0000FF" font-weight="bold">M</text>
+  <text x="140" y="136" font-size="11" fill="#FFD700" font-weight="bold">O</text>
+
+  <!-- Bottom labels -->
+  <text x="150" y="220" font-size="12" fill="white" opacity="0.9" text-anchor="middle">المثلث ABC قائم الزاوية في C</text>
+  <text x="150" y="238" font-size="11" fill="#0000FF" opacity="0.9" text-anchor="middle">والمثلث AMB قائم الزاوية في M</text>
+  <text x="150" y="250" font-size="10" fill="white" opacity="0.7" text-anchor="middle">مهما كانت M و C على الدائرة</text>
+</svg>
